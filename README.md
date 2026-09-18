@@ -1,1 +1,4 @@
-# Verity-s-game-script
+# Loadstring
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/samucarapo/Verity-s-game-script/main/Main.lua", true))()
+```

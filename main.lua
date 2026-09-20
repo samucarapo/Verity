@@ -13,7 +13,7 @@ local player = Players.LocalPlayer
 local FONT = Enum.Font.Arcade
 local IMAGE_ID = "rbxassetid://75149787879884"
 local AUDIO_ID = "rbxassetid://94972178245095"
-local SCRIPT_URL = "https://raw.githubusercontent.com/samucarapo/Verity-s-game-script/refs/heads/main/script.lua"
+local SCRIPT_URL = "https://raw.githubusercontent.com/samucarapo/Verity-s-game-script/refs/heads/main/main.lua"
 
 local BUTTON_COOLDOWN = 0.5
 local buttonLocked = false

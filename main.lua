@@ -13,337 +13,29 @@ local player = Players.LocalPlayer
 local FONT = Enum.Font.Arcade
 local IMAGE_ID = "rbxassetid://75149787879884"
 local AUDIO_ID = "rbxassetid://94972178245095"
-local SCRIPT_URL = "https://raw.githubusercontent.com/samucarapo/Verity-s-game-script/refs/heads/main/main.lua"
+local SCRIPT_URL = "https://raw.githubusercontent.com/samucarapo/Verity-s-game-script/refs/heads/main/script.lua"
 
-local LANGUAGE_FILE = "VerityLanguage.txt"
+local BUTTON_COOLDOWN = 0.5
+local buttonLocked = false
 
 _G.VerityToggleState = _G.VerityToggleState or {}
 _G.VerityLastScript = _G.VerityLastScript or nil
 _G.VerityPendingToggleState = _G.VerityPendingToggleState or nil
 
-local function saveLanguage(language)
-    if type(writefile) == "function" then
-        pcall(function()
-            writefile(LANGUAGE_FILE, language)
-        end)
-    end
-end
-
-local function loadLanguage()
-    if type(isfile) ~= "function" or type(readfile) ~= "function" then
-        return nil
-    end
-
-    local success, result = pcall(function()
-        if isfile(LANGUAGE_FILE) then
-            return readfile(LANGUAGE_FILE)
-        end
-    end)
-
-    if success and result then
-        result = tostring(result):gsub("%s+", "")
-
-        if result == "pt" or result == "en" or result == "ru" then
-            return result
-        end
-    end
-
-    return nil
-end
-
-local language = loadLanguage()
-
-local TEXT = {
-    pt = {
-        language = "IDIOMA",
-        portuguese = "PORTUGUÊS",
-        english = "INGLÊS",
-        russian = "RUSSO",
-
-        title = "VERITY",
-        interact = "INTERAGIR",
-        open = "ABRIR",
-        endPoint = "TP PARA O FIM",
-        safeZone = "TP PARA ZONA SEGURA",
-        treadmill = "TP PARA ESTEIRA",
-
-        antiHold = "ANTI-HOLD",
-        autoRebirth = "AUTO RENASCIMENTO",
-        autoUpgradeBase = "AUTO UPGRADE BASE",
-        autoUpgradeTreadmill = "AUTO UPGRADE ESTEIRA",
-        autoEquipBest = "AUTO EQUIPAR MELHOR",
-        checkUpdate = "VERIFICAR ATUALIZAÇÃO",
-        reexecute = "REEXECUTAR",
-
-        closeQuestion = "FECHAR MENU?",
-        yes = "SIM",
-        no = "NÃO",
-
-        loading = "CARREGANDO"
-    },
-
-    en = {
-        language = "LANGUAGE",
-        portuguese = "PORTUGUESE",
-        english = "ENGLISH",
-        russian = "RUSSIAN",
-
-        title = "VERITY",
-        interact = "INTERACT",
-        open = "OPEN",
-        endPoint = "TP TO END",
-        safeZone = "TP TO SAFE ZONE",
-        treadmill = "TP TO TREADMILL",
-
-        antiHold = "ANTI-HOLD",
-        autoRebirth = "AUTO REBIRTH",
-        autoUpgradeBase = "AUTO UPGRADE BASE",
-        autoUpgradeTreadmill = "AUTO UPGRADE TREADMILL",
-        autoEquipBest = "AUTO EQUIP BEST",
-        checkUpdate = "CHECK UPDATE",
-        reexecute = "REEXECUTE",
-
-        closeQuestion = "CLOSE MENU?",
-        yes = "YES",
-        no = "NO",
-
-        loading = "LOADING"
-    },
-
-    ru = {
-        language = "ЯЗЫК",
-        portuguese = "ПОРТУГАЛЬСКИЙ",
-        english = "АНГЛИЙСКИЙ",
-        russian = "РУССКИЙ",
-
-        title = "VERITY",
-        interact = "ВЗАИМОДЕЙСТВИЕ",
-        open = "ОТКРЫТЬ",
-        endPoint = "ТП В КОНЕЦ",
-        safeZone = "ТП В БЕЗОПАСНУЮ ЗОНУ",
-        treadmill = "ТП К БЕГОВОЙ ДОРОЖКЕ",
-
-        antiHold = "АНТИ-HOLD",
-        autoRebirth = "АВТО ВОЗРОЖДЕНИЕ",
-        autoUpgradeBase = "АВТО УЛУЧШЕНИЕ БАЗЫ",
-        autoUpgradeTreadmill = "АВТО УЛУЧШЕНИЕ ДОРОЖКИ",
-        autoEquipBest = "АВТО ЛУЧШЕЕ СНАРЯЖЕНИЕ",
-        checkUpdate = "ПРОВЕРКА ОБНОВЛЕНИЙ",
-        reexecute = "ПЕРЕЗАПУСК",
-
-        closeQuestion = "ЗАКРЫТЬ МЕНЮ?",
-        yes = "ДА",
-        no = "НЕТ",
-
-        loading = "ЗАГРУЗКА"
-    }
-}
-
-local function getText(key)
-    return TEXT[language] and TEXT[language][key] or TEXT.en[key] or key
-end
-
-local function createLanguageSelection()
-    local selectionGui = Instance.new("ScreenGui")
-    selectionGui.Name = "VerityLanguageSelection"
-    selectionGui.ResetOnSpawn = false
-    selectionGui.IgnoreGuiInset = true
-    selectionGui.DisplayOrder = 1000000
-    selectionGui.Parent = game.CoreGui
-
-    local background = Instance.new("Frame")
-    background.Size = UDim2.fromScale(1, 1)
-    background.BackgroundColor3 = Color3.fromRGB(10, 10, 13)
-    background.BorderSizePixel = 0
-    background.Parent = selectionGui
-
-    local container = Instance.new("Frame")
-    container.AnchorPoint = Vector2.new(0.5, 0.5)
-    container.Position = UDim2.fromScale(0.5, 0.5)
-    container.Size = UDim2.fromOffset(250, 240)
-    container.BackgroundColor3 = Color3.fromRGB(18, 18, 22)
-    container.BorderSizePixel = 0
-    container.Parent = background
-
-    local corner = Instance.new("UICorner")
-    corner.CornerRadius = UDim.new(0, 14)
-    corner.Parent = container
-
-    local stroke = Instance.new("UIStroke")
-    stroke.Color = Color3.fromRGB(55, 55, 65)
-    stroke.Thickness = 1
-    stroke.Parent = container
-
-    local image = Instance.new("ImageLabel")
-    image.AnchorPoint = Vector2.new(0.5, 0)
-    image.Position = UDim2.new(0.5, 0, 0, 15)
-    image.Size = UDim2.fromOffset(55, 55)
-    image.BackgroundTransparency = 1
-    image.Image = IMAGE_ID
-    image.Parent = container
-
-    local title = Instance.new("TextLabel")
-    title.Size = UDim2.new(1, -20, 0, 30)
-    title.Position = UDim2.fromOffset(10, 75)
-    title.BackgroundTransparency = 1
-    title.Text = "SELECT LANGUAGE"
-    title.TextColor3 = Color3.fromRGB(235, 235, 240)
-    title.TextSize = 12
-    title.Font = FONT
-    title.Parent = container
-
-    local layout = Instance.new("UIListLayout")
-    layout.Padding = UDim.new(0, 7)
-    layout.HorizontalAlignment = Enum.HorizontalAlignment.Center
-    layout.Parent = container
-
-    local buttons = {}
-
-    local function createLanguageButton(text, code)
-        local button = Instance.new("TextButton")
-        button.Size = UDim2.fromOffset(205, 34)
-        button.Text = text
-        button.TextColor3 = Color3.fromRGB(235, 235, 240)
-        button.TextSize = 10
-        button.Font = FONT
-        button.BackgroundColor3 = Color3.fromRGB(38, 38, 46)
-        button.BorderSizePixel = 0
-        button.AutoButtonColor = false
-        button.Parent = container
-
-        local buttonCorner = Instance.new("UICorner")
-        buttonCorner.CornerRadius = UDim.new(0, 8)
-        buttonCorner.Parent = button
-
-        button.MouseEnter:Connect(function()
-            TweenService:Create(
-                button,
-                TweenInfo.new(0.15),
-                {BackgroundColor3 = Color3.fromRGB(52, 52, 62)}
-            ):Play()
-        end)
-
-        button.MouseLeave:Connect(function()
-            TweenService:Create(
-                button,
-                TweenInfo.new(0.15),
-                {BackgroundColor3 = Color3.fromRGB(38, 38, 46)}
-            ):Play()
-        end)
-
-        button.MouseButton1Click:Connect(function()
-            language = code
-            saveLanguage(code)
-
-            selectionGui:Destroy()
-        end)
-
-        table.insert(buttons, button)
-    end
-
-    createLanguageButton("PORTUGUÊS (BRASIL)", "pt")
-    createLanguageButton("ENGLISH", "en")
-    createLanguageButton("РУССКИЙ", "ru")
-
-    return selectionGui
-end
-
-if not language then
-    createLanguageSelection()
-
-    repeat
-        task.wait()
-    until language
-end
-
-local loadingGui = Instance.new("ScreenGui")
-loadingGui.Name = "VerityLoading"
-loadingGui.ResetOnSpawn = false
-loadingGui.IgnoreGuiInset = true
-loadingGui.DisplayOrder = 999999
-loadingGui.Parent = game.CoreGui
-
-local loadingContainer = Instance.new("Frame")
-loadingContainer.AnchorPoint = Vector2.new(0.5, 0.5)
-loadingContainer.Position = UDim2.fromScale(0.5, 0.5)
-loadingContainer.Size = UDim2.fromOffset(150, 145)
-loadingContainer.BackgroundTransparency = 1
-loadingContainer.Parent = loadingGui
-
-local loadingButton = Instance.new("ImageButton")
-loadingButton.AnchorPoint = Vector2.new(0.5, 0.5)
-loadingButton.Position = UDim2.fromScale(0.5, 0.42)
-loadingButton.Size = UDim2.fromOffset(58, 58)
-loadingButton.BackgroundColor3 = Color3.fromRGB(45, 125, 255)
-loadingButton.BorderSizePixel = 0
-loadingButton.Image = IMAGE_ID
-loadingButton.ScaleType = Enum.ScaleType.Fit
-loadingButton.AutoButtonColor = false
-loadingButton.Parent = loadingContainer
-
-local loadingButtonCorner = Instance.new("UICorner")
-loadingButtonCorner.CornerRadius = UDim.new(1, 0)
-loadingButtonCorner.Parent = loadingButton
-
-local loadingButtonStroke = Instance.new("UIStroke")
-loadingButtonStroke.Color = Color3.fromRGB(80, 160, 255)
-loadingButtonStroke.Thickness = 1
-loadingButtonStroke.Transparency = 0.15
-loadingButtonStroke.Parent = loadingButton
-
-local loadingSound = Instance.new("Sound")
-loadingSound.Name = "VerityLoadingSound"
-loadingSound.SoundId = AUDIO_ID
-loadingSound.Volume = 1
-loadingSound.Looped = false
-loadingSound.Parent = game.CoreGui
-
-pcall(function()
-    ContentProvider:PreloadAsync({
-        loadingButton,
-        loadingSound
-    })
-end)
-
-loadingSound:Play()
-
-local loadingBackground = Instance.new("Frame")
-loadingBackground.AnchorPoint = Vector2.new(0.5, 0)
-loadingBackground.Position = UDim2.fromScale(0.5, 0.68)
-loadingBackground.Size = UDim2.fromOffset(92, 24)
-loadingBackground.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-loadingBackground.BorderSizePixel = 0
-loadingBackground.Parent = loadingContainer
-
-local loadingCorner = Instance.new("UICorner")
-loadingCorner.CornerRadius = UDim.new(0, 5)
-loadingCorner.Parent = loadingBackground
-
-local loadingText = Instance.new("TextLabel")
-loadingText.Size = UDim2.fromScale(1, 1)
-loadingText.BackgroundTransparency = 1
-loadingText.Text = getText("loading")
-loadingText.TextColor3 = Color3.fromRGB(255, 255, 255)
-loadingText.TextSize = 9
-loadingText.Font = FONT
-loadingText.Parent = loadingBackground
-
-if not game:IsLoaded() then
-    game.Loaded:Wait()
-end
-
-task.wait(0.5)
-
-local gui = Instance.new("ScreenGui")
-gui.Name = "VerityUI"
-gui.ResetOnSpawn = false
-gui.IgnoreGuiInset = true
-gui.Parent = game.CoreGui
-
-local buttonLocked = false
-local BUTTON_COOLDOWN = 0.5
-
 local toggleRegistry = {}
+
+local COLORS = {
+    Background = Color3.fromRGB(18, 18, 22),
+    Secondary = Color3.fromRGB(28, 28, 34),
+    Button = Color3.fromRGB(38, 38, 46),
+    ButtonHover = Color3.fromRGB(52, 52, 62),
+    Text = Color3.fromRGB(235, 235, 240),
+    Accent = Color3.fromRGB(80, 140, 255),
+    Success = Color3.fromRGB(45, 150, 75),
+    Danger = Color3.fromRGB(160, 55, 55),
+    BlueCircle = Color3.fromRGB(45, 125, 255),
+    BlueHover = Color3.fromRGB(65, 145, 255)
+}
 
 local function tween(object, properties, duration)
     if not object or not object.Parent then
@@ -367,6 +59,7 @@ local function useButton(callback)
     end
 
     buttonLocked = true
+
     task.spawn(callback)
 
     task.delay(BUTTON_COOLDOWN, function()
@@ -407,6 +100,8 @@ local function saveCurrentToggleStates()
     end
 
     _G.VerityPendingToggleState = saved
+
+    return saved
 end
 
 local function disableAllToggles()
@@ -419,7 +114,7 @@ local function disableAllToggles()
             data.button:SetAttribute("EnabledToggle", false)
 
             tween(data.button, {
-                BackgroundColor3 = Color3.fromRGB(38, 38, 46)
+                BackgroundColor3 = COLORS.Button
             })
 
             pcall(data.callback, false)
@@ -500,10 +195,94 @@ local function checkForUpdate()
     executeSource(source)
 end
 
+local gui = Instance.new("ScreenGui")
+gui.Name = "VerityUI"
+gui.ResetOnSpawn = false
+gui.IgnoreGuiInset = true
+gui.Parent = game.CoreGui
+
+local loadingGui = Instance.new("ScreenGui")
+loadingGui.Name = "VerityLoading"
+loadingGui.ResetOnSpawn = false
+loadingGui.IgnoreGuiInset = true
+loadingGui.DisplayOrder = 999999
+loadingGui.Parent = game.CoreGui
+
+local loadingContainer = Instance.new("Frame")
+loadingContainer.AnchorPoint = Vector2.new(0.5, 0.5)
+loadingContainer.Position = UDim2.fromScale(0.5, 0.5)
+loadingContainer.Size = UDim2.fromOffset(150, 145)
+loadingContainer.BackgroundTransparency = 1
+loadingContainer.Parent = loadingGui
+
+local loadingButton = Instance.new("ImageButton")
+loadingButton.AnchorPoint = Vector2.new(0.5, 0.5)
+loadingButton.Position = UDim2.fromScale(0.5, 0.42)
+loadingButton.Size = UDim2.fromOffset(58, 58)
+loadingButton.BackgroundColor3 = COLORS.BlueCircle
+loadingButton.BorderSizePixel = 0
+loadingButton.Image = IMAGE_ID
+loadingButton.ScaleType = Enum.ScaleType.Fit
+loadingButton.AutoButtonColor = false
+loadingButton.Parent = loadingContainer
+
+local loadingButtonCorner = Instance.new("UICorner")
+loadingButtonCorner.CornerRadius = UDim.new(1, 0)
+loadingButtonCorner.Parent = loadingButton
+
+local loadingButtonStroke = Instance.new("UIStroke")
+loadingButtonStroke.Color = Color3.fromRGB(80, 160, 255)
+loadingButtonStroke.Thickness = 1
+loadingButtonStroke.Transparency = 0.15
+loadingButtonStroke.Parent = loadingButton
+
+local loadingSound = Instance.new("Sound")
+loadingSound.Name = "VerityLoadingSound"
+loadingSound.SoundId = AUDIO_ID
+loadingSound.Volume = 1
+loadingSound.Looped = false
+loadingSound.Parent = game.CoreGui
+
+pcall(function()
+    ContentProvider:PreloadAsync({
+        loadingButton,
+        loadingSound
+    })
+end)
+
+loadingSound:Play()
+
+local loadingBackground = Instance.new("Frame")
+loadingBackground.AnchorPoint = Vector2.new(0.5, 0)
+loadingBackground.Position = UDim2.fromScale(0.5, 0.68)
+loadingBackground.Size = UDim2.fromOffset(92, 24)
+loadingBackground.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+loadingBackground.BorderSizePixel = 0
+loadingBackground.Parent = loadingContainer
+
+local loadingCorner = Instance.new("UICorner")
+loadingCorner.CornerRadius = UDim.new(0, 5)
+loadingCorner.Parent = loadingBackground
+
+local loadingText = Instance.new("TextLabel")
+loadingText.Size = UDim2.fromScale(1, 1)
+loadingText.BackgroundTransparency = 1
+loadingText.Text = "LOADING"
+loadingText.TextColor3 = Color3.fromRGB(255, 255, 255)
+loadingText.TextSize = 9
+loadingText.Font = FONT
+loadingText.Parent = loadingBackground
+
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+
+task.wait(0.5)
+
 local frame = Instance.new("Frame")
 frame.Size = UDim2.fromOffset(200, 220)
 frame.Position = UDim2.new(1, -210, 0, 10)
-frame.BackgroundColor3 = Color3.fromRGB(18, 18, 22)
+frame.BackgroundColor3 = COLORS.Background
 frame.BorderSizePixel = 0
 frame.Parent = gui
 
@@ -520,8 +299,8 @@ frameStroke.Parent = frame
 local title = Instance.new("TextLabel")
 title.Size = UDim2.new(1, -75, 0, 34)
 title.Position = UDim2.fromOffset(10, 0)
-title.Text = getText("title")
-title.TextColor3 = Color3.fromRGB(235, 235, 240)
+title.Text = "VERITY"
+title.TextColor3 = COLORS.Text
 title.TextSize = 14
 title.Font = FONT
 title.TextXAlignment = Enum.TextXAlignment.Left
@@ -534,8 +313,8 @@ min.Position = UDim2.new(1, -61, 0, 4)
 min.Text = "-"
 min.TextSize = 18
 min.Font = FONT
-min.TextColor3 = Color3.fromRGB(235, 235, 240)
-min.BackgroundColor3 = Color3.fromRGB(38, 38, 46)
+min.TextColor3 = COLORS.Text
+min.BackgroundColor3 = COLORS.Button
 min.BorderSizePixel = 0
 min.AutoButtonColor = false
 min.Parent = frame
@@ -550,8 +329,8 @@ close.Position = UDim2.new(1, -31, 0, 4)
 close.Text = "X"
 close.TextSize = 12
 close.Font = FONT
-close.TextColor3 = Color3.fromRGB(235, 235, 240)
-close.BackgroundColor3 = Color3.fromRGB(38, 38, 46)
+close.TextColor3 = COLORS.Text
+close.BackgroundColor3 = COLORS.Button
 close.BorderSizePixel = 0
 close.AutoButtonColor = false
 close.Parent = frame
@@ -573,7 +352,7 @@ scroll.Position = UDim2.fromOffset(6, 39)
 scroll.BackgroundTransparency = 1
 scroll.BorderSizePixel = 0
 scroll.ScrollBarThickness = 3
-scroll.ScrollBarImageColor3 = Color3.fromRGB(80, 140, 255)
+scroll.ScrollBarImageColor3 = COLORS.Accent
 scroll.CanvasSize = UDim2.new(0, 0, 0, 0)
 scroll.AutomaticCanvasSize = Enum.AutomaticSize.Y
 scroll.Parent = frame
@@ -598,31 +377,31 @@ local function teleport(position)
     end
 end
 
-local function addButtonAnimation(button)
-    local originalSize = button.Size
+local function addButtonAnimation(buttonObject)
+    local originalSize = buttonObject.Size
 
-    button.MouseEnter:Connect(function()
+    buttonObject.MouseEnter:Connect(function()
         if not buttonLocked then
-            tween(button, {
-                BackgroundColor3 = Color3.fromRGB(52, 52, 62)
+            tween(buttonObject, {
+                BackgroundColor3 = COLORS.ButtonHover
             })
         end
     end)
 
-    button.MouseLeave:Connect(function()
-        if button:GetAttribute("EnabledToggle") ~= true then
-            tween(button, {
-                BackgroundColor3 = Color3.fromRGB(38, 38, 46)
+    buttonObject.MouseLeave:Connect(function()
+        if buttonObject:GetAttribute("EnabledToggle") ~= true then
+            tween(buttonObject, {
+                BackgroundColor3 = COLORS.Button
             })
         end
     end)
 
-    button.MouseButton1Down:Connect(function()
+    buttonObject.MouseButton1Down:Connect(function()
         if buttonLocked then
             return
         end
 
-        tween(button, {
+        tween(buttonObject, {
             Size = UDim2.new(
                 originalSize.X.Scale,
                 originalSize.X.Offset - 2,
@@ -632,38 +411,38 @@ local function addButtonAnimation(button)
         }, 0.08)
     end)
 
-    button.MouseButton1Up:Connect(function()
-        tween(button, {
+    buttonObject.MouseButton1Up:Connect(function()
+        tween(buttonObject, {
             Size = originalSize
         }, 0.08)
     end)
 end
 
 local function createButton(text, callback)
-    local button = Instance.new("TextButton")
-    button.Size = UDim2.new(1, 0, 0, 32)
-    button.Text = text
-    button.TextColor3 = Color3.fromRGB(235, 235, 240)
-    button.TextSize = 10
-    button.Font = FONT
-    button.BackgroundColor3 = Color3.fromRGB(38, 38, 46)
-    button.BorderSizePixel = 0
-    button.AutoButtonColor = false
-    button.Parent = content
+    local buttonObject = Instance.new("TextButton")
+    buttonObject.Size = UDim2.new(1, 0, 0, 32)
+    buttonObject.Text = text
+    buttonObject.TextColor3 = COLORS.Text
+    buttonObject.TextSize = 10
+    buttonObject.Font = FONT
+    buttonObject.BackgroundColor3 = COLORS.Button
+    buttonObject.BorderSizePixel = 0
+    buttonObject.AutoButtonColor = false
+    buttonObject.Parent = content
 
     local corner = Instance.new("UICorner")
     corner.CornerRadius = UDim.new(0, 8)
-    corner.Parent = button
+    corner.Parent = buttonObject
 
     local stroke = Instance.new("UIStroke")
     stroke.Color = Color3.fromRGB(55, 55, 65)
     stroke.Transparency = 0.35
     stroke.Thickness = 1
-    stroke.Parent = button
+    stroke.Parent = buttonObject
 
-    addButtonAnimation(button)
+    addButtonAnimation(buttonObject)
 
-    button.MouseButton1Click:Connect(function()
+    buttonObject.MouseButton1Click:Connect(function()
         useButton(callback)
     end)
 end
@@ -671,37 +450,51 @@ end
 local function createToggle(text, callback)
     local enabled = getSavedToggle(text)
 
-    local button = Instance.new("TextButton")
-    button.Size = UDim2.new(1, 0, 0, 32)
-    button.Text = text .. (enabled and " [ON]" or " [OFF]")
-    button.TextColor3 = Color3.fromRGB(235, 235, 240)
-    button.TextSize = 9
-    button.Font = FONT
-    button.BackgroundColor3 = enabled
-        and Color3.fromRGB(45, 150, 75)
-        or Color3.fromRGB(38, 38, 46)
-    button.BorderSizePixel = 0
-    button.AutoButtonColor = false
-    button:SetAttribute("EnabledToggle", enabled)
-    button.Parent = content
+    local toggle = Instance.new("TextButton")
+    toggle.Size = UDim2.new(1, 0, 0, 32)
+    toggle.Text = text .. (enabled and " [ON]" or " [OFF]")
+    toggle.TextColor3 = COLORS.Text
+    toggle.TextSize = 9
+    toggle.Font = FONT
+    toggle.BackgroundColor3 = enabled and COLORS.Success or COLORS.Button
+    toggle.BorderSizePixel = 0
+    toggle.AutoButtonColor = false
+    toggle:SetAttribute("EnabledToggle", enabled)
+    toggle.Parent = content
 
     local corner = Instance.new("UICorner")
     corner.CornerRadius = UDim.new(0, 8)
-    corner.Parent = button
+    corner.Parent = toggle
 
     local stroke = Instance.new("UIStroke")
     stroke.Color = Color3.fromRGB(55, 55, 65)
     stroke.Transparency = 0.35
     stroke.Thickness = 1
-    stroke.Parent = button
+    stroke.Parent = toggle
 
     toggleRegistry[text] = {
-        button = button,
+        button = toggle,
         callback = callback,
         enabled = enabled
     }
 
-    button.MouseButton1Click:Connect(function()
+    toggle.MouseEnter:Connect(function()
+        if not enabled and not buttonLocked then
+            tween(toggle, {
+                BackgroundColor3 = COLORS.ButtonHover
+            })
+        end
+    end)
+
+    toggle.MouseLeave:Connect(function()
+        if not enabled then
+            tween(toggle, {
+                BackgroundColor3 = COLORS.Button
+            })
+        end
+    end)
+
+    toggle.MouseButton1Click:Connect(function()
         if buttonLocked then
             return
         end
@@ -712,13 +505,11 @@ local function createToggle(text, callback)
             toggleRegistry[text].enabled = enabled
             saveToggle(text, enabled)
 
-            button.Text = text .. (enabled and " [ON]" or " [OFF]")
-            button:SetAttribute("EnabledToggle", enabled)
+            toggle.Text = text .. (enabled and " [ON]" or " [OFF]")
+            toggle:SetAttribute("EnabledToggle", enabled)
 
-            tween(button, {
-                BackgroundColor3 = enabled
-                    and Color3.fromRGB(45, 150, 75)
-                    or Color3.fromRGB(38, 38, 46)
+            tween(toggle, {
+                BackgroundColor3 = enabled and COLORS.Success or COLORS.Button
             })
 
             callback(enabled)
@@ -732,7 +523,7 @@ local function createToggle(text, callback)
     end
 end
 
-createButton(getText("interact"), function()
+createButton("INTERACT", function()
     local character = player.Character
     local root = character and character:FindFirstChild("HumanoidRootPart")
 
@@ -765,7 +556,7 @@ createButton(getText("interact"), function()
     end
 end)
 
-createButton(getText("open"), function()
+createButton("OPEN", function()
     local character = player.Character
     local root = character and character:FindFirstChild("HumanoidRootPart")
 
@@ -804,15 +595,15 @@ createButton(getText("open"), function()
     root.CFrame = savedPosition
 end)
 
-createButton(getText("endPoint"), function()
+createButton("TP TO END", function()
     teleport(Vector3.new(-120, 13, 255))
 end)
 
-createButton(getText("safeZone"), function()
+createButton("TP TO SAFE ZONE", function()
     teleport(Vector3.new(-117, 13, -141))
 end)
 
-createButton(getText("treadmill"), function()
+createButton("TP TO TREADMILL", function()
     local bases = workspace:FindFirstChild("Bases")
 
     if not bases then
@@ -898,32 +689,73 @@ local autoUpgradeTreadmill = false
 local autoEquipBest = false
 local checkUpdate = false
 
-createToggle(getText("antiHold"), function(enabled)
+createToggle("ANTI-HOLD", function(enabled)
     antiHold = enabled
 end)
 
-createToggle(getText("autoRebirth"), function(enabled)
+createToggle("AUTO REBIRTH", function(enabled)
     autoRebirth = enabled
 end)
 
-createToggle(getText("autoUpgradeBase"), function(enabled)
+createToggle("AUTO UPGRADE BASE", function(enabled)
     autoUpgradeBase = enabled
 end)
 
-createToggle(getText("autoUpgradeTreadmill"), function(enabled)
+createToggle("AUTO UPGRADE TREADMILL", function(enabled)
     autoUpgradeTreadmill = enabled
 end)
 
-createToggle(getText("autoEquipBest"), function(enabled)
+createToggle("AUTO EQUIP BEST", function(enabled)
     autoEquipBest = enabled
 end)
 
-createToggle(getText("checkUpdate"), function(enabled)
+createToggle("CHECK UPDATE", function(enabled)
     checkUpdate = enabled
 end)
 
-createButton(getText("reexecute"), function()
+createButton("REEXECUTE", function()
     reexecuteScript()
+end)
+
+task.spawn(function()
+    while gui.Parent do
+        if antiHold then
+            local character = player.Character
+            local humanoid = character and character:FindFirstChildOfClass("Humanoid")
+
+            if humanoid then
+                humanoid:UnequipTools()
+            end
+        end
+
+        if autoRebirth then
+            ReplicatedStorage.RemoteEvents.RebirthEvent:FireServer()
+        end
+
+        if autoUpgradeBase then
+            ReplicatedStorage.RemoteEvents.BaseUpgradeEvent:FireServer()
+        end
+
+        if autoUpgradeTreadmill then
+            ReplicatedStorage.RemoteEvents.BuyTreadmillEvent:FireServer()
+        end
+
+        if autoEquipBest then
+            ReplicatedStorage.RemoteEvents.EquipBestEvent:FireServer()
+        end
+
+        task.wait(1)
+    end
+end)
+
+task.spawn(function()
+    while gui.Parent do
+        if checkUpdate then
+            checkForUpdate()
+        end
+
+        task.wait(1)
+    end
 end)
 
 local function makeDraggable(object)
@@ -973,7 +805,7 @@ ball.Size = UDim2.fromOffset(58, 58)
 ball.Position = UDim2.new(1, -68, 0.5, -29)
 ball.Image = IMAGE_ID
 ball.ScaleType = Enum.ScaleType.Fit
-ball.BackgroundColor3 = Color3.fromRGB(45, 125, 255)
+ball.BackgroundColor3 = COLORS.BlueCircle
 ball.BorderSizePixel = 0
 ball.AutoButtonColor = false
 ball.Visible = false
@@ -989,19 +821,73 @@ ballStroke.Thickness = 1
 ballStroke.Transparency = 0.15
 ballStroke.Parent = ball
 
+ball.MouseEnter:Connect(function()
+    tween(ball, {
+        BackgroundColor3 = COLORS.BlueHover
+    })
+end)
+
+ball.MouseLeave:Connect(function()
+    tween(ball, {
+        BackgroundColor3 = COLORS.BlueCircle
+    })
+end)
+
 makeDraggable(ball)
+
+min.MouseEnter:Connect(function()
+    if not buttonLocked then
+        tween(min, {
+            BackgroundColor3 = COLORS.ButtonHover
+        })
+    end
+end)
+
+min.MouseLeave:Connect(function()
+    tween(min, {
+        BackgroundColor3 = COLORS.Button
+    })
+end)
+
+close.MouseEnter:Connect(function()
+    if not buttonLocked then
+        tween(close, {
+            BackgroundColor3 = COLORS.Danger
+        })
+    end
+end)
+
+close.MouseLeave:Connect(function()
+    tween(close, {
+        BackgroundColor3 = COLORS.Button
+    })
+end)
 
 min.MouseButton1Click:Connect(function()
     useButton(function()
         frame.Visible = false
         ball.Visible = true
+        ball.Size = UDim2.fromOffset(0, 0)
+
+        tween(ball, {
+            Size = UDim2.fromOffset(58, 58)
+        }, 0.22)
     end)
 end)
 
 ball.MouseButton1Click:Connect(function()
+    if buttonLocked then
+        return
+    end
+
     useButton(function()
         ball.Visible = false
+        frame.Size = UDim2.fromOffset(200, 0)
         frame.Visible = true
+
+        tween(frame, {
+            Size = UDim2.fromOffset(200, 220)
+        }, 0.22)
     end)
 end)
 
@@ -1012,21 +898,26 @@ close.MouseButton1Click:Connect(function()
 
     useButton(function()
         local confirmation = Instance.new("Frame")
-        confirmation.Size = UDim2.fromOffset(220, 110)
+        confirmation.Size = UDim2.fromOffset(220, 0)
         confirmation.Position = UDim2.new(0.5, -110, 0.5, -55)
-        confirmation.BackgroundColor3 = Color3.fromRGB(28, 28, 34)
+        confirmation.BackgroundColor3 = COLORS.Secondary
         confirmation.BorderSizePixel = 0
         confirmation.Parent = gui
 
-        local corner = Instance.new("UICorner")
-        corner.CornerRadius = UDim.new(0, 12)
-        corner.Parent = confirmation
+        local confirmationCorner = Instance.new("UICorner")
+        confirmationCorner.CornerRadius = UDim.new(0, 12)
+        confirmationCorner.Parent = confirmation
+
+        local confirmationStroke = Instance.new("UIStroke")
+        confirmationStroke.Color = Color3.fromRGB(65, 65, 75)
+        confirmationStroke.Thickness = 1
+        confirmationStroke.Parent = confirmation
 
         local text = Instance.new("TextLabel")
         text.Size = UDim2.new(1, -20, 0, 48)
         text.Position = UDim2.fromOffset(10, 5)
-        text.Text = getText("closeQuestion")
-        text.TextColor3 = Color3.fromRGB(235, 235, 240)
+        text.Text = "CLOSE MENU?"
+        text.TextColor3 = COLORS.Text
         text.TextSize = 12
         text.Font = FONT
         text.BackgroundTransparency = 1
@@ -1035,12 +926,13 @@ close.MouseButton1Click:Connect(function()
         local yes = Instance.new("TextButton")
         yes.Size = UDim2.fromOffset(90, 34)
         yes.Position = UDim2.fromOffset(15, 62)
-        yes.Text = getText("yes")
+        yes.Text = "YES"
         yes.TextSize = 10
         yes.Font = FONT
-        yes.TextColor3 = Color3.fromRGB(235, 235, 240)
-        yes.BackgroundColor3 = Color3.fromRGB(160, 55, 55)
+        yes.TextColor3 = COLORS.Text
+        yes.BackgroundColor3 = COLORS.Danger
         yes.BorderSizePixel = 0
+        yes.AutoButtonColor = false
         yes.Parent = confirmation
 
         local yesCorner = Instance.new("UICorner")
@@ -1050,68 +942,36 @@ close.MouseButton1Click:Connect(function()
         local no = Instance.new("TextButton")
         no.Size = UDim2.fromOffset(90, 34)
         no.Position = UDim2.fromOffset(115, 62)
-        no.Text = getText("no")
+        no.Text = "NO"
         no.TextSize = 10
         no.Font = FONT
-        no.TextColor3 = Color3.fromRGB(235, 235, 240)
-        no.BackgroundColor3 = Color3.fromRGB(38, 38, 46)
+        no.TextColor3 = COLORS.Text
+        no.BackgroundColor3 = COLORS.Button
         no.BorderSizePixel = 0
+        no.AutoButtonColor = false
         no.Parent = confirmation
 
         local noCorner = Instance.new("UICorner")
         noCorner.CornerRadius = UDim.new(0, 8)
         noCorner.Parent = no
 
+        addButtonAnimation(yes)
+        addButtonAnimation(no)
+
+        tween(confirmation, {
+            Size = UDim2.fromOffset(220, 110)
+        }, 0.22)
+
         yes.MouseButton1Click:Connect(function()
             gui:Destroy()
             loadingGui:Destroy()
+            loadingSound:Destroy()
         end)
 
         no.MouseButton1Click:Connect(function()
             confirmation:Destroy()
         end)
     end)
-end)
-
-task.spawn(function()
-    while gui.Parent do
-        if antiHold then
-            local character = player.Character
-            local humanoid = character and character:FindFirstChildOfClass("Humanoid")
-
-            if humanoid then
-                humanoid:UnequipTools()
-            end
-        end
-
-        if autoRebirth then
-            ReplicatedStorage.RemoteEvents.RebirthEvent:FireServer()
-        end
-
-        if autoUpgradeBase then
-            ReplicatedStorage.RemoteEvents.BaseUpgradeEvent:FireServer()
-        end
-
-        if autoUpgradeTreadmill then
-            ReplicatedStorage.RemoteEvents.BuyTreadmillEvent:FireServer()
-        end
-
-        if autoEquipBest then
-            ReplicatedStorage.RemoteEvents.EquipBestEvent:FireServer()
-        end
-
-        task.wait(1)
-    end
-end)
-
-task.spawn(function()
-    while gui.Parent do
-        if checkUpdate then
-            checkForUpdate()
-        end
-
-        task.wait(1)
-    end
 end)
 
 if _G.VerityLastScript == nil then

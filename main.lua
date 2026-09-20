@@ -1,1 +1,1148 @@
---[[ v1.0.0 https://wearedevs.net/obfuscator ]] return(function(...)local v={"(raD@r&u`+OskB*`<>Xl","(pBi;@-*Oot/0)J./P1opa4kc7","(e)c1rsN";"(%b\"(_c0%q/P\\kf_K,n";"(W`kEa";"(b[@7Kk1$\"6EBVdB","(-<\\p9sj","(1%MOdEO;:*\'9,lncN;6","($Nms\\[pF!HcW9NYc*";"(>_`fU6`q","(eFHp+%EXcfcZgX5";"(hqfasZ7-\'S";"(0l-6k;Pu";"(!!2F=ZY\"Z]W\\<^9-=`@c)s";"(O/ZmgB.omm!?ZX%";"((s4?un<+","(cttI#","(`rs&#B%q]eu`b5&Pre","(1kRis@(57&f0","(eel?)U=4aq\"\'+l4","(&!%(\\gJ?%","(:_UWfru=:T\"QA!,9gT";"(j.-N^&4K^b";"([E=]l%q.T0-$PS4E86";"(E989/VF&r;b=\\=./#B";"(sRr]a$m`","(Y>\\QCW`k[#VT\')";"(WGMXgV6*","(sa--5`C","(0Koc5PY:n>j*F#H3Ds_";"(kHD>1";"(,1pQTtO]\'68gkF7+Tck","(ct5<A[q;lq?0Z+5","(-arN+e)eFCe)T&FW`;*a","(hiIWAb+scCR@/;#F8_@","(?chG4E76];k\"BAN";"(eP8\"TA/[$s-KLG>E.","(b\"_VdA.,)NulltMAtU","(8gPs;$m$Pu-g_@0?)";"(`RR","(j-DIB#H\",[Q\"";"(WcP0_ctbd=";"(V\\\'6eUmis/P?2=iJ]4\'[1Lg8kDXXI[","(.[0f/1SAn";"(?@YO?D!*N\"_0pt5%,?K","(WMgUfESd;kU\'N;.bb4";"(q9q6NgOVPWfJFj\'@\"-8!H)","(@-SNsVZ-\\&";"(WMWNa%\"F7RU$!DA8/0";"(G9+QH","(3$Cb#)c%";"([U&Tl`p(/6W3bG=b\'","(u(\"HIkU]l^U\\)&6","(?sOZFE#,@","(CpA<ul>%<t>M&FA","(`tGOMrn.kp-eer7Wkl";"(W]M$8cl0";"(O\\OTe","(`.=FLsc8O2?7GdM[Da","(";"(:Q]rql<Jh&$\"";"(W3&/Ae)TV0V8Wmi";"(Ai(:s8=&","(eoM`3sN";"(o:kd&L+[nB\"Do";"(`RQ","(#!:!6N-k+t";"(sa]\\Bsj","(Y>\\qRebC*","(VDGb$DSHZ?cg]F(e(";"(/H(D&tt<YC#EX9L!Ve_])%W3M(8q*mTBKM4=2@[SaY=Ssg*(#u)u\\V8\'CHGO&\"cpIgX*\"KMPX;@3=k\\$2u`1?nOS,X3a]mf1h\'W6.ic";"(Vj/EfV-u","(WcPDksR)s3","(9rg#aG%8R>?W[@rNN";"(`n-G5W]M$8cl0";"(4fcKIf\"J";"(b)cn!8;D;Hu\'YLR-O>";"(V6C8,";"(k;jm;%Ed=fEQhabcY","(8\\&%m$#Hsmu+n&Meg";"(@N","(1.s*0jj","(`(a3a-MV#-AXf9=u*","(Ys)f!Bu3","(Y>\\$h";"(0e\\+1q*","(%h230eE2qF%,MP=[M","(Y>\\TOcY","(81:=!$*(,/`q:`\'","(H=kj9NB?jBb\\A30@7c","(!870%P$D7dO.cLm","(-W;NF$Tpf7sK.X<","(92\'t57M.","(2pT_aW)u","(`^f92[LKAlo-Xf=l,$c\\&s","(V[DE!$O%^`%n)]";"(bQbIu]&au%,hY","(Y=&u#7JO";"(^.)Xe$Mf0","(V>@dg";"((>F:@[o%","(^Z6EO4FTme-,</In7+";"(#D#\\#&(^WUL0^<";"(@9(8RtI<`";"(-giNC-W;50[P?Np_#X";"(DSW8K8lQQlVj>c]E.";"(bhfZ-E=?p?eU9mqkZj";"(ucj]@kquYq@0HoY";"(Ws6p8";"(1M)[[!tNmb02TuB<\\V","(kDq32V6Q","(\\bRa<q[n3:","(kEX@M","($:_!7248","(?7I6,%n[ZQUG_TUbL=","(K3LAI;g4$";"(-Ver&+2PA]4&";"(N!RRKN,O";"(%[ej5b6/(";"(ctguskn\\$4UY","(%87c%WCM=R`\\K-6","(@0s;Djr.Y6dS>;";"(U/#@LVE5<<U/-m/","(r&HDHDSHHkE_kW=VX","(WcR0!`pJO0W3l@c?[","(%%T83bF\\QjeJE7S?G^","(siGnjc\'7","(@PQ>6tJTU6Dps.-BZIB*CatE&q;M","(p7jGdn\'=";"(Pf8[tZf7D*FDrcRe:R[[I[`uS-W$","(W`eNfe/","(uXo]Yb-6fb%n%es","([lcMTXPqo7KC";"(93Lg-4hkWK`C";"(KN315TW3";"(e,#9Kb[u@dUG]5/"}for T,U in ipairs({{233231-233230,-716745+716881},{-861745+861746,101111+-101002},{236553-236443;-868580-(-868716)}})do while U[1044480-1044479]<U[-936342+936344]do v[U[2656843396%12131705]],v[U[-143313-(-143315)]],U[-533048+533049],U[72059-72057]=v[U[832970-832968]],v[U[993454-993453]],U[790771-790770]+524077771%2278599,U[-196250-(-196252)]-1788881499%12252613 end end local function T(T)return v[T-367818385%4597271]end do local T={["6"]=983032128%6826612,v=-247150+247170,["+"]=-98450+98495;t=-185029-(-185088);y=842564+-842531,o=735666702%5217494;r=631419-631412;W=1817401446%7604190,L=136230+-136198;G=-226702-(-226751);["4"]=-891929-(-891964),J=3925905167%15958964,V=316760+-316749;D=-738677-(-738679),z=503582+-503581,Z=202615-202601,f=3179225888%15661211,p=1125292492%7077311,P=-920986-(-921015);["3"]=-541864+541927,["9"]=269742-269718,X=419156632%4507060,x=266067+-266052,k=918241+-918213;O=431268021%5600883;m=416274+-416247;l=302997+-302958,q=1436117830%14218988,["/"]=2503014985%13828812,["0"]=464286856%15476228;F=401009+-400948;u=1113032577%10305857;Y=-862267-(-862277);b=814821+-814816;S=-816849-(-816887),j=74585092%1147462;d=-524698-(-524716),["8"]=119901082%4995876,I=-1005123+1005174;e=1467402326%11930100;a=815913681%6424517,c=64132638%5830235;s=-316291-(-316295);R=765098+-765042;n=840347369%11671491,B=623560+-623520,h=687087+-687084,["7"]=919510-919491;H=799422+-799385,U=123007960%897868;Q=1914002404%15190495,g=-831115+831162;w=948655-948601,["5"]=-454122+454179,A=2499833328%14791913,K=-563700-(-563760),T=2533245395%15637317,C=282951323%8322097,N=-191475+191525,["1"]=879623616%6564355;E=663720+-663708,M=584645032%3230083,["2"]=1095371758%8762974,i=1495542457%14807351}local U=string.sub local O={d=192466-192460;["/"]=684518-684479,O=201326+-201267;["("]=216196-216130;K=1007314-1007253;Z=648627-648584;["&"]=2175730437%10613319;["*"]=1329818396%12200168;t=756236-756223;s=2759520084%13016604;A=-379676+379692;Q=-760363+760419,C=-715591-(-715651);["6"]=-247646-(-247726);["9"]=716067-716009;["0"]=2396008607%10239353,G=-683998+684061;H=218321-218302,I=2118684238%11514588;o=713228-713150,["2"]=506183040%2343440;[";"]=107067+-106999;["\""]=102301+-102253,Y=771766-771736;b=-692532-(-692554),j=-543-(-624),S=-528890+528973,["7"]=-14556+14558,["]"]=146375+-146366,["^"]=-70864+70937;["8"]=-547663+547688,X=602723-602709,u=373392439%2290751,J=935643+-935596;W=452344-452307;l=-604182-(-604223);["4"]=-695388+695437;k=-470986-(-471019),["\\"]=116368643%8951431,P=2280185228%13180261,_=-918075+918104,["+"]=1898905687%13860625;["%"]=-586745+586768,T=1547300199%15788777;["["]=702604-702580,["3"]=996386-996379,R=1200448405%5532020;F=-374578+374655,g=664515-664504,["`"]=381665+-381631,E=72625431%620730,[">"]=-543206-(-543261);c=-375771-(-375806),D=1055991674%12877947,["-"]=78363+-78336;["."]=-95802-(-95847);["5"]=162765+-162689;["$"]=766280098%5894462,r=699631-699616;h=-981547+981599,a=-623791-(-623801);N=-377254+377308;e=1044566-1044534,["!"]=902091-902034;i=463449316%5517253;m=-615284-(-615288),M=2417532728%10200560;[")"]=1046891+-1046840;[":"]=-772141+772153;["\'"]=-68096+68165;q=-474925-(-474969);n=844335-844263;U=-666070-(-666087);[","]=274230+-274156,f=177276094%5065029,["<"]=602066+-601999;["1"]=411136+-411066;["="]=-603978-(-604060),["@"]=-896604+896622;["?"]=1406766620%9134848,["#"]=-444439+444440;B=556023603%2527380,V=-256553-(-256584);p=-40713+40784;L=715331-715281}local y=type local Y=table.concat local f=v local D=table.insert local V=math.floor local g=string.char local d=string.len for v=-525343+525344,#f,-604395+604396 do local s=f[v]if y(s)=="string"then local y=U(s,71436+-71435,-664018+664019)if y=="O"then s=U(s,2242013364%16731443)local O=d(s)local y={}local k=1327871665%9221331 local Q=1244658310%12700595 local w=541366812%4296562 while k<=O do local v=U(s,k,k)local Y=T[v]if Y then Q=Q+Y*((-655963-(-656027))^(((215322+-215319)-w)))w=w+(-478338-(-478339))if w==923940679%12319209 then w=63263808%340128 local v=V(Q/(300735106%10022319))local T=V((Q%(1091346-1025810))/(-655953+656209))local U=Q%(-1536-(-1792))D(y,g(v,T,U))Q=137225-137225 end elseif v=="="then D(y,g(V(Q/(272294-206758))))if k>=O or U(s,k+(537430-537429),k+(553084-553083))~="="then D(y,g(V((Q%(752352+-686816))/(-785177+785433))))end break end k=k+129406117%731108 end f[v]=Y(y)elseif y=="("then s=U(s,-823272+823274)local T=d(s)local y={}local k=927940-927939 while k<=T do local v=(T-k)+(-307400-(-307401))local Y=v>=933998-933993 and 230894+-230889 or v local f=-534048-(-534048)local d=Y>-772272+772273 for v=804638+-804638,267850636%6377396,384396+-384395 do local T if v<Y then local y=U(s,k+v,k+v)T=O[y]if not T then d=false break end else T=344991+-344907 end f=f*(196486+-196401)+T end if d then local v=V(f/(17069241-292025))%(-723599-(-723855))local T=V(f/(582475+-516939))%(-842252-(-842508))local U=V(f/(-991407-(-991663)))%(1231882102%15793357)local O=f%(-744495+744751)if Y==1505628465%9713732 then D(y,g(v,T,U,O))elseif Y==651791+-651787 then D(y,g(v,T,U))elseif Y==-214555+214558 then D(y,g(v,T))elseif Y==-71944-(-71946)then D(y,g(v))end end k=k+Y end f[v]=Y(y)end end end end return(function(V,f,v,Y,O,D,y,g,p,m,s,A,x,U,w,j,d,J,C,Q,k,W,b)d,s,Q,x,k,A,J,g,w,b,j,m,W,p,U,C={},function()k=(433717-433716)+k d[k]=898701+-898700 return k end,function(v)for T=526076-526075,#v,2649300326%13448225 do d[v[T]]=d[v[T]]+(-112872+112873)end if y then local U=y(true)local O=f(U)O[T(-43698+80445)],O[T(1202024647%10186338)],O[T(-417228-(-453994))]=v,w,function()return 1854240373%18159735 end return U else return Y({},{[T(708766-672003)]=w;[T(182241-145494)]=v,[T(2921464836%15622610)]=function()return 2889204499%13366931 end})end end,function(v,T)local O=Q(T)local y=function(y,Y,f,D,V)return U(v,{y;Y,f,D;V},T,O)end return y end,823795+-823795,function(v,T)local O=Q(T)local y=function(y,Y,f,D)return U(v,{y,Y,f,D},T,O)end return y end,function(v)d[v]=d[v]-16599051%8299525 if d[v]==-791854-(-791854)then d[v],g[v]=nil,nil end end,{},function(v)local T,U=855354+-855353,v[22589713%1882476]while U do d[U],T=d[U]-2405959382%14760487,1358015905%10777904+T if 30719+-30719==d[U]then d[U],g[U]=nil,nil end U=v[T]end end,function(v,T)local O=Q(T)local y=function(y,Y)return U(v,{y;Y},T,O)end return y end,function(v,T)local O=Q(T)local y=function(...)return U(v,{...},T,O)end return y end,function(v,T)local O=Q(T)local y=function()return U(v,{},T,O)end return y end,function(v,T)local O=Q(T)local y=function(y)return U(v,{y},T,O)end return y end,function(v,T)local O=Q(T)local y=function(y,Y,f,D,V,g)return U(v,{y;Y,f,D;V;g},T,O)end return y end,function(U,y,Y,f)local j,F,R,c,G,N,o,i,Z,X,V,l,w,H,S,t,q,k,r,h,M,a,K,P,B,E,I,n,L,z,d,u,TJ,vJ,Q,e while U do if U<7161621-(-610792)then if U<4616117966%18088429 then if 282133+1696962>U then if U>1760928865%11499202 then if-578596+2259809>U then if-215242+1789446>U then U=-700929+11883893>=726671+4118217 g[Y[310278+-310277]]=U U,V=v[T(-148301+185038)],{}elseif 715062-(-890602)>U then U=5203179355%23167444 elseif 58481+1594492>U then F=g[M]q=J(q)Z=T(2122861743%11172763)I=g[k]Q=nil o=g[w]E=-849028+32749959032854 t=o(Z,E)V={}i=I[t]k=J(k)M=J(M)B=J(B)w=J(w)R=F[i]j=J(j)F=R()U=v[T(-407373-(-444172))]else U=1098501309%19078538 end else if 473527183%16268153>U then V=g[Y[-969544-(-969545)]]k=g[Y[441296166%2642492]]Q=g[Y[-521908+521911]]B,j=-131752+14106976885841,T(-9335-(-46071))w=Q(j,B)d=k[w]U=V[d]V=U()V,U={},v[T(1498946168%12186255)]elseif U<2244445-389482 then U=735972+10122366 Q=g[Y[-287831+287837]]k=Q==d V=k elseif 1847030-(-65139)>U then M=13675419-(-304084)>=1038629+2885423 U=M and 9962471-800318 or 12790857-723533 else vJ=-43152-(-43154)z=u[vJ]vJ=g[S]X=z==vJ U,TJ=-535342+15056607,X end end else if U<1420715-264589 then if 818269-(-980)>U then if U<1271615714%10335727 then U=P U=-422067+6096841 g[k]=K elseif-214114-(-896882)>U then d,k=y[-298861-(-298862)],y[868475+-868473]U=g[Y[-957950+957951]]Q=U U=Q[k]U=U and 2800878-(-346803)or 128926738%13046915 else U=V and 345426035%8446017 or 11497215-799116 end else if 545902813%2780394>U then g[k]=P r,U=-968361+968362,TJ vJ=g[L]z=vJ+r X=u[z]a=i+X X=321206-320950 TJ=a%X z=g[G]X=I+z U,i,z=1514916505%11016363,TJ,-972741+972997 a=X%z I=a else U,V=v[T(99863889%5872186)],{k}end end else if U<937062603%7143464 then V=T(70167+-33414)U=v[V]d=g[Y[111792139%601033]]q,B=32235747436356-(-742238),T(-82562+119288)V=U(d)d,k=V,T(-134142+170929)V=v[k]k=V(d)Q=g[Y[-544879-(-544881)]]w=g[Y[310117-310114]]j=w(B,q)V=Q[j]U=k~=V U=U and 2234283238%10797391 or 11049208-298933 elseif U<-276028+1578380 then U=15262501-348415 elseif U<1631473-210389 then q,B,d=1025699+6762922452394,T(1958478954%12089149),y[3427034851%15231266]V=g[Y[-313076-(-313077)]]Q=g[Y[251971+-251969]]w=g[Y[655659930%5603931]]j=w(B,q)k=Q[j]U=V[k]V=U(d)d,V,U=nil,{},v[T(752239+-715453)]else M,R=736886-736886,-939958-(-940213)U=g[Y[13202-13201]]k=Q q=U(M,R)U=1478774585%7593891 d[k]=q k=nil end end end else if 250300+2655222>U then if U<-735682+3193227 then if U<1383488-(-686263)then V,w=T(54609570%606365),T(713565-676814)R=m(1906667-(-412589),{})U=v[V]M=T(841710+-805003)d=g[Y[154205828%2409466]]Q=v[w]q=v[M]M={q(R)}B,q={O(M)},186296717%5645355 j=B[q]w=Q(j)Q=T(-156561-(-193343))k=d(w,Q)d={k()}V=U(O(d))d=V k=g[Y[198446+-198441]]V,U=k,k and-749859+2559253 or 995009+9863329 elseif 1161987736%14869150>U then U,Q,V=T(277467-240693),155333748%10355583,1407248243%10742353 k=s()w=Q g[k]=U d,U,Q=y,-112952+13425176,830576+-830575 j=Q Q=283815+-283815 B=Q>j Q=V-j elseif U<2099417-(-201687)then P=U TJ=g[k]U,K=TJ and 7705731-813853 or-103154+193894,TJ else Q,V,k=11055433-(-427649),5304023-669574,T(3220471934%13474624)d=k^Q U=V-d d,V=U,T(491398+-454666)U=V/d V={U}U=v[T(-581130+617953)]end else if U<-771353+3412805 then U=-15510+5139406 elseif 3237890-517769>U then V=g[Y[-209329+209330]]k=g[Y[-33282+33284]]B,j=18704239169413-585088,T(-157855+194690)Q=g[Y[3184167%88449]]w=Q(j,B)d=k[w]U=V[d]V=U()V,U={},v[T(-194970+231780)]elseif U<-661328+3489686 then V,q=-329586+329586,Q U=q==V U=U and 1124806855%29247948 or 4168071-140493 else U=R U=B and 684329+7498267 or-1047372+8563255 end end else if U<669249+2406736 then if 3829743-897830>U then j,B=T(964229+-927452),-237949+9382467187342 V=g[Y[605069-605068]]k=g[Y[638107034%9247928]]Q=g[Y[-434646-(-434649)]]w=Q(j,B)d=k[w]U=V[d]V=U()V,U={},v[T(-930077+966916)]elseif 980220138%3924687>U then q,U=nil,13852441-540217 elseif U<2479664726%17946785 then k=g[Y[603888-603886]]Q=g[Y[446635983%12761028]]d=k==Q U,V=670870297%15515031,d else h,E=h+c,not N H=l>=h H=E and H E=h>=l E=N and E H=E or H E=3179461250%23293990 U=H and E H=12942501-736233 U=U or H end else if 421669842%3348268>U then w,B,U,q,R=nil,nil,45434989%1478954,nil,M M=nil Q[k]=R elseif 1031977+2249349>U then V,U={k},v[T(1029777+-993047)]elseif U<-62908+3539408 then U=F F=s()N,o,Z=T(-808850+845601),772485+-772420,T(-42221+78928)H=W(3024678199%28143578,{})g[F]=R R=g[M]I=1071194925%9001638 i=R(I,o)R=s()g[R]=i i=-39212+39212 t=v[Z]I=580323552%12090074 Z={t(H)}o={O(Z)}Z=872974+-872972 t=o[Z]H=T(-366355-(-403075))Z=v[H]h=g[w]c=v[N]N=c(t)c=T(145866945%1148269)l=h(N,c)h={l()}H=Z(O(h))Z=s()g[Z]=H h=g[R]H,l=991961+-991960,h h=1326777041%6171056 c=h h,U=-713935-(-713935),918028+2108938 N=h>c h=H-c else U=218708+14296624 end end end end else if U>-472578+6372674 then if U>614913+5870074 then if U<630316+6712310 then if-595534+7220029>U then n,E=T(433986+-397222),T(-1045975+1082794)Z=v[E]G=g[k]L=g[w]S=-129175+15398004167833 u=L(n,S)E=G[u]U=14537626-982319 t=Z[E]E=A(1041724+11495506,{o,k,w})Z=t(E)elseif U<3125885160%14782293 then U=nil V={U}U=v[T(-309857-(-346615))]elseif 1865990130%7843711>U then a,vJ=U,-1020480-(-1020481)z=u[vJ]vJ=1174334060%15693811<=4678019-(-249082)X=z==vJ TJ,U=X,X and 690195882%18601948 or 15015014-493749 else U=g[Y[413321-413311]]k=g[Y[386999819%1860576]]d[U]=k U=g[Y[357522333%1508533]]k={U(d)}U,V=v[T(-760044-(-796827))],{O(k)}end else if U<7446953-(-78355)then R=g[M]i=g[k]Z,t=298500+4982196697868,T(-288994+325715)I=g[w]o=I(t,Z)t=T(820468946%5293111)F=i[o]B=R[F]R=B()R=g[q]i=g[k]I=g[w]Z=21355818111156-(-677412)o=I(t,Z)F=i[o]B=R[F]Z=69971108781957%573533747146 R=B()R=g[q]t=T(-361602+398381)i=g[k]I=g[w]o=I(t,Z)F=i[o]L=T(-922987-(-959819))B=R[F]Z,t=-720571+8545819233862,T(665235486%9502838)i=g[k]I=g[w]o=I(t,Z)F=i[o]Z=28294453585044-(-560867)i=x(12910503-853283,{M;k;w})R=B(F,i)R=g[q]i=g[k]u,t=-595227+10292019980243,T(-836168+872964)I=g[w]o=I(t,Z)Z=-254231+5512655629086 F=i[o]B=R[F]t=T(-57437-(-94165))i=g[k]I=g[w]o=I(t,Z)Z=4566596120799-747665 F=i[o]t=T(36038343%800034)i=b(1368301189%11294290,{M,k;w})R=B(F,i)R=g[q]i=g[k]I=g[w]o=I(t,Z)F=i[o]B=R[F]i=g[k]I=g[w]Z,t=718961+3828368658053,T(-447445+484256)o=I(t,Z)F=i[o]i=A(-188278+16931435,{M,k,w})R=B(F,i)R=g[q]Z,t=899220+7679231268195,T(358132+-321308)i=g[k]I=g[w]o=I(t,Z)F=i[o]Z=18047203322988-(-898151)B=R[F]i=g[k]I=g[w]t=T(-903349-(-940059))o=I(t,Z)t=T(-501684-(-538511))F=i[o]i=x(15188659-18916,{M;k,w})R=B(F,i)R=g[q]i=g[k]Z=21555347720440-(-106045)I=g[w]o=I(t,Z)F=i[o]Z,t=-255909+10415686843031,T(67832424%569711)B=R[F]i=g[k]I=g[w]o=I(t,Z)Z=-90161+18446715666878 F=i[o]i=W(-257023+16119909,{M,k,w})R=B(F,i)R=g[q]i=g[k]t=T(74166+-37437)I=g[w]o=I(t,Z)Z=900598+17366406570400 F=i[o]B=R[F]t=T(-143194+179989)i=g[k]I=g[w]o=I(t,Z)F=i[o]o=g[M]i=b(238748662%10187678,{M,k;w})Z=g[k]E=g[w]G=E(L,u)t=Z[G]L=T(12880+23839)I=o[t]u=-830813+27139737083578 Z=g[k]E=g[w]G=E(L,u)t=Z[G]o={I(t)}R=B(F,i,O(o))t=T(682343588%15506973)R=g[q]i=g[k]Z=802463+18533190542103 I=g[w]L=T(2274202436%14213535)o=I(t,Z)F=i[o]Z=855910+27088934035936 B=R[F]t=T(54207+-17474)i=g[k]I=g[w]u=-347307+31367904314809 o=I(t,Z)F=i[o]o=g[M]Z=g[k]i=p(530267129%18160966,{M,k;w})E=g[w]G=E(L,u)L=T(-153019-(-189788))t=Z[G]I=o[t]Z=g[k]u=750383+9968250691314 E=g[w]G=E(L,u)t=Z[G]o={I(t)}t=T(1127972781%8743690)R=B(F,i,O(o))R=g[q]u=2454295656169-62067 i=g[k]Z=12401025514334-(-121648)I=g[w]o=I(t,Z)L=T(668477840%12854636)F=i[o]t=T(3465621965%15897180)B=R[F]Z=-482651+28419280539916 i=g[k]I=g[w]o=I(t,Z)F=i[o]o=g[M]i=C(602492+9655281,{M;k,w})Z=g[k]E=g[w]G=E(L,u)t=Z[G]I=o[t]Z=g[k]E=g[w]u,L=-921663+33401477975296,T(2217510000%9125404)G=E(L,u)t=Z[G]o={I(t)}R=B(F,i,O(o))t=T(-421619+458381)R=g[q]i=g[k]Z=108405+18506816010804 I=g[w]o=I(t,Z)F=i[o]B=R[F]i=g[k]Z=283741+3027820687652 I=g[w]t=T(125548112%7383018)o=I(t,Z)F=i[o]L=T(260373-223593)o=g[M]u=427847+23335222551339 i=x(186559+1126390,{M;k,w})Z=g[k]E=g[w]G=E(L,u)t=Z[G]I=o[t]Z=g[k]L=T(207549-170741)E=g[w]u=-489516+31322275623205 G=E(L,u)t=Z[G]o={I(t)}R=B(F,i,O(o))t=T(-631606+668398)R=g[q]Z=1025474+12275577827474 i=g[k]I=g[w]o=I(t,Z)t=T(70633+-33811)F=i[o]B=R[F]Z,u=2257827360017-(-268042),92268+16103948137694 i=g[k]I=g[w]o=I(t,Z)n,L=18991129384873-718110,T(309980838%11920925)F=i[o]i=x(-993828+14038198,{M;k;w})o=g[M]Z=g[k]E=g[w]G=E(L,u)L=T(1515716879%6561386)t=Z[G]u=2219988384410-931473 I=o[t]Z=g[k]E=g[w]G=E(L,u)t=Z[G]E=34151152358717-(-92385)o={I(t)}R=B(F,i,O(o))R=g[q]t,Z=T(-841885-(-878660)),162536+8383730406487 i=g[k]I=g[w]o=I(t,Z)F=i[o]B=R[F]R=B()u=T(847778687%7245657)B=s()g[B]=R F=g[q]Z=T(2303751471%16109893)I=g[k]o=g[w]t=o(Z,E)i=I[t]R=F[i]I=g[k]o=g[w]E,Z=31743625195160-636123,T(-838319-(-875148))t=o(Z,E)i=I[t]t=g[M]E=g[k]I=b(289894153%17827705,{M;k,w,B,q})G=g[w]L=G(u,n)u=T(199820-162986)Z=E[L]o=t[Z]E=g[k]G=g[w]n=-341898+13201422208909 L=G(u,n)Z=E[L]t={o(Z)}F=R(i,I,O(t))F=g[q]I=g[k]o=g[w]E,Z=-675957+26748875096348,T(-708148+744978)t=o(Z,E)i=I[t]R=F[i]Z=T(23981077%144243)I=g[k]E=931983+18033234028606 o=g[w]U=6854654-576606 t=o(Z,E)i=I[t]I=A(6824560-(-769644),{M,k;w,B,q})F=R(i,I)F=T(771511+-734765)R=v[F]o=g[B]t={R(o)}F,I,i=t[1950461558%16119517],t[-949889-(-949892)],t[927633586%14961832]elseif 8550227-990183>U then l=i==I U,H=15702219-(-847953),l elseif 1531923779%7621670>U then U=nil V={U}U=v[T(1017337931%7825394)]else V=g[Y[-1015161-(-1015162)]]j=T(-790488-(-827321))k=g[Y[152900-152898]]Q=g[Y[2048202135%9571038]]B=535358+23493440716669 w=Q(j,B)d=k[w]U=V[d]d=g[Y[210538-210534]]k=m(-300753+2987823,{Y[642333746%4903311],Y[-477608+477610];Y[2091462303%11619235]})V=U(d,k)V,U={},v[T(264097640%4552774)]end end else if U>7186760-771290 then if U<6392966-(-38813)then V,d=T(-978169-(-1014887)),T(742909+-706165)U=v[V]V=v[d]d=T(528360622%4477321)v[d]=U d,U=T(1556609398%11973636),10219920-(-804723)v[d]=V d=g[Y[-477786+477787]]k=d()elseif 2879708704%12072530>U then M=g[B]Q,U=M,12282115-(-708039)elseif 6470213-7574>U then U,V=j,k U=259106-(-554583)else o=Z+o I,E=t>=o,not N I=E and I E=t<=o E=N and E I=E or I E=8313856-(-625816)U=I and E I=2882866-287032 U=U or I end else if 3041978855%22656093>U then M=-80524-(-80526)V=q==M U=V and 2209992945%25570845 or 3264704-(-896785)elseif 7002365-813258>U then U={}d,k=U,400399156%6159987 Q=g[Y[665477-665468]]w=Q Q=-993359+993360 j=Q Q=117901-117901 B=j<Q Q,U=k-j,19717348%14157617 elseif 6188700-(-153830)>U then I,o=F(i,I)U=I and 6995627-588615 or 687414+948206 else n=T(1145555894%10606659)t=s()R=I g[t]=o o=t Z=g[o]S=1382053873256-(-343067)G=g[k]L=g[w]u=L(n,S)E=G[u]t=Z[E]U=t and 1867961496%10457659 or-49512+13604819 end end end else if U<70145+4879407 then if U<-732127+5132930 then if 468144757%12890284>U then if 3745357-83818>U then V=g[Y[1205175592%13852593]]q,d=14081792533522-(-226699),y[1014374956%6147727]Q=g[Y[244011-244009]]w=g[Y[709912-709909]]B=T(152725830%2349062)j=w(B,q)k=Q[j]U=V[k]V=U(d)V,U,d={},v[T(2402750570%14387508)],nil elseif U<1144546111%7866692 then U=V and 1669411-(-364973)or 845559+7518311 else M=3103652806%12985995 V=q==M U=V and 14431807-679604 or 2442680795%18049305 end else if 797124567%5393599>U then R=-685525+685528 M=q==R U=M and 639515428%7927491 or 121375+2834949 else d=g[Y[145528-145527]]V=#d d=1210817664%7207248 U=V==d U=U and 451239812%12999220 or 4703485945%19883841 end end else if U<2859037894%19287138 then d=y[166749587%3624991]V=g[Y[-777998+777999]]q=-843248+34226479242289 Q=g[Y[-842384-(-842386)]]w=g[Y[-444936+444939]]B=T(-62056-(-98801))j=w(B,q)k=Q[j]U=V[k]V=U(d)V,U,d={},v[T(890263725%9676380)],nil elseif U<2974992632%12223531 then d=y[844662571%7474890]V=g[Y[57551970%3029051]]Q=g[Y[668423-668421]]w=g[Y[412756599%4913769]]B,q=T(509513+-472790),29939079072115-676606 j=w(B,q)k=Q[j]U=V[k]Q=m(527939+2379563,{Y[-867676+867681];Y[915200+-915198],Y[422345-422342]})k=g[Y[857352+-857348]]V=U(d,k,Q)V,U,d={},v[T(-521466-(-558223))],nil elseif 1318089096%5541442>U then U=-411558+8979447 else d,Q=T(490381727%5907770),638955+-638955 U=v[d]k=g[Y[496643+-496635]]d=U(k,Q)U=741317+5358850 end end else if 1035665351%7411708>U then if U<5106914-13594 then V,U={},v[T(44371+-7551)]elseif U<5193558-4050 then t=#i o=-406881+406882 I=F(o,t)o=R(i,I)t=g[M]E=1250522656%8868955 N=o-E Z=Q(N)I=nil t[o]=Z N=-972794-(-972794)Z=#i o=nil t=Z==N U=t and 757165583%12623626 or 3239897930%14838413 elseif 6213537-927903>U then i,t=i+I,not o R=i<=F R=t and R t=i>=F t=o and t R=t or R t=-1040205+15888280 U=R and t R=-350557+3475561 U=U or R else F=-958236+4710568<=1296784032%22961783 R=g[k]M=R==F U=M and 3320055546%17729183 or 1888357813%17660937 end else if 4769051-(-794538)>U then q,Q=not B,Q+j k=w>=Q k=q and k q=Q>=w q=B and q k=q or k q=2697971583%13757359 U=k and q k=-739480+7908849 U=U or k elseif 583988+5037123>U then U,V=v[T(-803354-(-840138))],{k}elseif U<434146+5291027 then E=J(E)G=J(G)u=nil n=J(n)L=J(L)S=J(S)H=J(H)U=3544098-517132 else V,U={},v[T(473103+-436278)]end end end end end else if U>485627+12033100 then if U<14086573-(-427956)then if 13942587-472518>U then if-498441+13683049>U then if U>304628+12712634 then if U<438188+12612493 then B,q,d=T(613264-576512),182621+704498218987,y[841518-841517]V=g[Y[2526892748%10572773]]Q=g[Y[61074-61072]]w=g[Y[92517493%383890]]j=w(B,q)k=Q[j]U=V[k]V=U(d)d,U,V=nil,v[T(1479510887%12328951)],{}else U=14089652-417753 end else if 4897518639%22305374>U then M,V,q=-293100+32786031637647,T(306500-269793),T(-931920-(-968757))U=v[V]k=g[Y[-449493+449494]]w=g[Y[-750466-(-750468)]]j=g[Y[397150+-397147]]B=j(q,M)Q=w[B]d=k[Q]k=14608730-360316~=14169616-220002 V=U(d,k)V,U={},v[T(-50475+87230)]elseif-369252+13237447>U then U=13014375-(-737528)>=382933+9235758 U=U and 15561551-(-668814)or 9754516-(-973815)else F,U,R=T(1137806029%4643956),q,T(-201414+238245)I=U M=v[R]t,R=T(-971309-(-1008118)),T(121370+-84565)q=M[R]M=s()g[M]=q R=v[F]F=T(-319425-(-356175))q=R[F]o=v[t]F,i=U,o U=o and 16867728-1045953 or 3304931278%27643351 end end else if U<78047+13235741 then q,Q=not B,Q+j V=w>=Q V=q and V q=Q>=w q=B and q V=q or V q=3273954-520781 U=V and q V=4187907896%28212214 U=U or V elseif 1611773120%19258342>U then k,V,Q=T(2553166575%11930513),10721764-(-305968),1726816097%13409539 d=k^Q U=V-d d,V=U,T(437760+-400939)U=V/d V={U}U=v[T(-631817+668578)]elseif 14178880-813407>U then d=s()Q=b(14225279-(-288448),{Y[-631350+631351];d})V=T(1025128+-988421)g[d]=y[1790696511%7785637]U=v[V]w={U(Q)}V,k=w[747652597%8593708],w[898135-898133]Q=V w=s()g[w]=k k=not Q V,U=k,k and 103998-(-709691)or 180603+8381633 else V=g[k]M=T(140184+-103410)U=V~=M U=U and 11508604-493294 or 6709298732%27223605 end end else if 14579993-867942>U then if U<13434884-(-172260)then U,R=-252657+6530705,nil o=J(o)elseif U<13282322-(-378444)then M,R,I=T(1344565495%9209101),12834711615160-(-1007776),363672+22367117614103 j=g[k]B=g[w]i=T(740443-703689)q=B(M,R)Q=j[q]j=s()g[j]=Q M=g[k]R=g[w]F=R(i,I)q=M[F]Q=p(121381+13224734,{j;k,w})I=T(-877201-(-914013))B=Q(q)o=25237642703342-640006 q=s()g[q]=B R=g[k]F=g[w]i=F(I,o)M=R[i]B=Q(M)M=s()g[M]=B R=U i=g[q]F=not i B,U=F,F and 253898255%4403416 or 15007133-(-650582)elseif U<-960021+14627245 then o=33503605033843-69250 q=g[w]U=5501132-(-952365)R=g[Y[-582944-(-582946)]]I=T(3692243312%15513473)F=g[Y[376594883%2353718]]i=F(I,o)M=R[i]B=q==M k=B else h=129842-(-479631)<=1690259932%12396620 U=h and 14675609-(-59446)or 1160688948%10404625 end else if 13261188-(-628660)>U then R=3212385-461458>=14713427-788139 M=g[k]V=M==R U=V and 3055791532%15908853 or 86132670%23739528 elseif U<236791+14007241 then c,E=T(297827959%4803084),T(3298977500%13520249)h=v[c]N=v[E]U=685707012%19218572 c=h(N)h=T(1016770-980052)v[h]=c elseif U<14315064-(-172084)then I,U=T(435464-398758),577691346%3566934 i=v[I]R=i else V=T(1412276899%7889610)U=v[V]k=g[Y[218223-218222]]Q=g[Y[822098426%4419884]]d=k..Q k=T(1566429989%15983604)k=U[k]V={k(U,d)}V,U={O(V)},v[T(-620045-(-656849))]end end end else if U<-810818+16211160 then if 15283072-401992>U then if U<14271405-(-246893)then h=b(507199+1163128,{j})l={h()}V,U={O(l)},v[T(140722364%15631737)]elseif 962333+13665827>U then K,U=TJ,a U=3692-(-87048)elseif U<14234196-(-557369)then N,c=298601807%12982687,768987+-768986 h=g[M]l=h(c,N)N,h=T(1115816108%10143449),T(-698406+735124)v[h]=l c=v[N]N=112441730%1003944 h=c>N U=h and 14597041-569547 or 10983886-481951 else R,c=i,T(-224498+261233)l=v[c]c=T(-26704-(-63482))h=l[c]l=h(d,R)h=g[Y[-836170-(-836176)]]R=nil c=h()U=-299584+5554704 H=l+c Z=H+q H,l=908788-908532,-852431+852432 t=Z%H q=t h=q+l H=w[h]Z=M..H M=Z end else if 2694342514%25517678>U then U=2895782-(-60542)elseif U<5420364234%23399351 then TJ=U a=g[k]P,U=a,a and 6165065495%27346529 or-164329+989138 elseif 483878+14787248>U then j=T(-274810+311553)V=g[Y[-372782+372783]]k=g[Y[611862-611860]]B=29523636839753-(-249963)Q=g[Y[485102+-485099]]w=Q(j,B)d=k[w]U=V[d]V=U()V,U={},v[T(-818151+854865)]else R,U=i,I U=i and-34954+3449926 or-225672+14686242 end end else if U<2317071930%24221319 then if 14533410-(-1009535)>U then Q=-391468-(-391669)k=g[Y[140638-140635]]d=k*Q k=136643-136386 V=d%k Q=165066+-165065 g[Y[2653376112%14499323]]=V k=g[Y[-378879+378882]]d=k~=Q U=d and 1685855742%16743468 or 5703361327%23503856 elseif 2199104063%20405274>U then i=g[M]F,U=not i,-896861+3800404 B=F elseif U<916172+14926158 then Z=T(82823809%4139350)t=v[Z]U,Z=670575084%26208103,T(516386+-479680)o=t[Z]i=o else V=g[Y[-305144+305145]]k=g[Y[421615298%5855768]]Q=g[Y[41035195%932618]]j,B=T(89876-53095),22431876347922-134981 w=Q(j,B)d=k[w]U=V[d]V=U()V,U={},v[T(359467325%4729349)]end else if U<907370+15357058 then U=673332+12072904 elseif U<2141665845%32200629 then U=1697436-(-203096)elseif 17071414-424750>U then g[k]=H U=h h=g[k]U=h and 894931+7055691 or 3183840-(-354188)else V=g[Y[340718+-340717]]k=g[Y[-438957+438959]]B,j=35146532890833-960739,T(-267466-(-304226))Q=g[Y[-679416+679419]]w=Q(j,B)d=k[w]U=V[d]V=U()V,U={},v[T(-644319+681089)]end end end end else if U>10977067-77195 then if U>4382401078%18838078 then if 2881090474%18751058>U then if 12991204-928932>U then j=T(9130599%395383)V=g[Y[-570458+570459]]k=g[Y[1508054138%7813752]]Q=g[Y[581534-581531]]B=336879+4828406523097 w=Q(j,B)d=k[w]U=V[d]V=U()U,V=v[T(-900249+936973)],{}elseif 12173358-91461>U then U=9480813-912924 elseif-189730+12313431>U then U,X=2825192795%11119559,899095-899094 a=u[X]P=a else k=g[Y[532754+-532753]]j,w=-624575-(-624577),1451451443%11079782 Q=k(w,j)k=-511642+511643 d=Q==k U,V=d and 4608289-884325 or 2713240-(-276586),d end else if 13009927-760842>U then h=U l=g[k]U,H=l and-159179+7693912 or 15927873-(-622299),l elseif-139422+12471197>U then U=-640965+7212437>15328583-10537 g[k]=U U=2879071-(-77253)elseif-493259+12929195>U then o=s()i,S,I,E=nil,nil,{},{}g[o]=I I=s()t=m(432076445%7374257,{o,q,j;B})Q=nil Z=s()L=T(780573+-743826)B=J(B)n=T(691073+-654232)g[I]=t t,N={},T(-329607-(-366347))g[Z]=t t=v[N]F=nil u=g[Z]G={[L]=u,[n]=S}N=t(E,G)t=p(-19967-(-571814),{Z;o,M,q;j;I})q=J(q)q,i=T(514900+-478191),T(-651685+688479)j=J(j)R=nil I=J(I)g[k]=N o=J(o)M=J(M)g[w]=t B=v[q]Z=J(Z)M=g[k]I=341595+22126428271076 R=g[w]F=R(i,I)q=M[F]j=B[q]B=1.0452641663908e+14 Q=j~=B U=Q and 9093449-(-880560)or 14639783-980801 else U,j=3423347602%15772636<=729113+6216382,T(-67443-(-104178))g[k]=U R=T(757842047%12630089)w=v[j]j=T(-352346+389135)B=s()Q=w[j]w=s()g[w]=Q j=s()q=U Q=m(1462284410%12189981,{})g[j]=Q Q=13845433-(-874627)<1250022931%23817532 F=A(1327880-(-244820),{B})g[B]=Q M=v[R]R=M(F)U,Q=R and 2942164317%13466627 or 1195476604%23649729,R end end else if U<10631091-(-860465)then if U<10774860-(-182932)then V=-662538+4506819<=1565301273%18494605 g[k]=V U=1005992+1950332 elseif U<4844385886%27777965 then U=13027320-281084 elseif U<10395885-(-855741)then U=-895404+3105000~=1531927714%12151298 U=U and 103995304%13938768 or-756877+5819622 else u=897538288%4399697 H=s()g[H]=h L=T(2560411359%15331584)G=v[L]L=T(-354008-(-390813))E=G[L]L=483174-483173 G=E(L,u)u,n=-573267-(-573267),-1043898+1044153 E=s()P=317227-317225 g[E]=G G=g[M]L=G(u,n)G=s()g[G]=L L=g[M]K=-457660+457661 S=g[E]n=-510016+510017 u=L(n,S)X=T(410501359%4717984)L=s()g[L]=u n=g[M]S=n(K,P)n=1617558141%7352537 u=S==n n=s()S=T(-736829+773611)g[n]=u a=v[X]z=g[M]u,r,e=T(290960-254169),461027510%2144314,989023956%4557668 vJ={z(r,e)}X=a(O(vJ))a,P,u=T(670703-633944),T(687914+-651155),t[u]TJ=X..a K=P..TJ P=T(-470897-(-507604))u=u(t,S,K)S=s()g[S]=u K=v[P]TJ=x(2105492728%23003756,{M,H;R,w,k;Z;n,S,E,L;G,F})P={K(TJ)}u={O(P)}K=g[n]U=K and 2543022430%10203773 or 14623170-(-435393)end else if 500558502%16301726>U then j,U,q=-508357+35184372597189,{},2508962711%16291964 g[Y[56110+-56108]]=U V=g[Y[-286886-(-286889)]]w=V V=k%j g[Y[-423572+423576]]=V B=k%q i,q=603622-603621,634878974%5038722 j=B+q g[Y[-321136-(-321141)]]=j B=#d F,I,M=B,i,T(388889+-352151)i,U,q=-264101+264101,5240663-(-14457),T(118791058%14844290)Q[k]=q R,q=280556+-280555,-759394-(-759598)o=i>I i=R-I elseif 3855153278%16567071>U then k=g[Y[584571+-584568]]I,Q=340820356%13632804,-983122+983154 d=k%Q U,Q=-476817+11376286,853576+-853563 B=g[Y[185154238%5290121]]j=B-d B=3079353536%16555664 w=j/B k=Q-w j=g[Y[392795+-392791]]F=-557134+557136 M=g[Y[431079+-431077]]R=F^k q=M/R B=j(q)j=-185097+4295152393 w=B%j B=576356-576354 j=B^d Q=w/j d,R=nil,-506261-(-506262)j=g[Y[988198+-988194]]M=Q%R R=-220055+4295187351 q=M*R B=j(q)R=554065834%5596622 j=g[Y[340014179%13600567]]q=j(Q)t=859774-859518 w=B+q M,B=-400162-(-465698),77586091%1230485 j=w%B q=w-j B=q/M M=j%R Q,k=nil,nil i=j%I F=j-i i=124427772%2145302 R=F/i j=nil i=1220004601%9172965 F=B%i o=B%t I=B-o o=-824725+824981 i=I/o B,q=nil,{M;R;F,i}g[Y[1777701661%12697869]]=q w=nil elseif U<5215551822%22527165 then V,d=T(-362170-(-398987)),T(803111+-766399)U=v[V]V=U(d)U,V=v[T(-846335+883120)],{}else q=nil k=J(k)q=T(113751-76920)j=J(j)R=J(R)o,i=nil,nil M=J(M)B=J(B)I,k=nil,nil w=J(w)F=J(F)Q=nil w=s()g[w]=k j=s()t,F,Q=nil,T(518771-482036),nil k=s()Z=J(Z)g[k]=Q Q=977894-977892 g[j]=Q B=v[q]M=s()I,q=T(-836095+872926),T(-392051-(-428793))Q=B[q]q=s()B=s()i,U=T(91243-54434),961587+5510194 g[B]=Q Q=-773703+773703 g[q]=Q Q={}g[M]=Q R=v[F]F=T(936945+-900189)Q=R[F]F=v[i]i=T(-499638+536478)R=F[i]i=v[I]I,o=T(-418215+455020),-558392+558648 F=i[I]t,I,i=o,278689825%2211824,{}o=-984802+984803 Z=o o=-64990-(-64990)N=Z<o o=I-Z end end end else if 456510+9540840>U then if U<8432420-(-321360)then if U<685903+7777150 then if 8678184-611575>U then U=1120649890%25785422 elseif U<8524338-251105 then U,V=v[T(-436615-(-473331))],{}else U=g[Y[-715127-(-715134)]]U=U and 129193+4707167 or 250507967%9776312 end else if 8223113-(-341949)>U then j,M=U,T(624886405%10962274)q=v[M]o=18063687880682-(-774385)R=g[w]M=q(R)R=g[Y[784913+-784911]]F=g[Y[386030793%4289231]]I=T(145786-108979)i=F(I,o)q=R[i]B=M~=q U,k=B and-999876+7453373 or 354878+13307672,B else U=-157417+3113741 end end else if 2768594539%17576711>U then U,I=6831359-359578,o E=I i[I]=E I=nil elseif 1605719682%19956318>U then U=760545146%4168377 elseif 10648942-1028772>U then Q=273917-273704 k=g[Y[3181227002%15148700]]d=k*Q k=27552854756580-285383 V=d+k d=916605+35184371172227 U=V%d g[Y[975731+-975729]]=U U=4986886095%31868320 else V,U={},v[T(1567635902%6171650)]end end else if U>618613733%22514834 then if U<-555186+11294489 then U=12450253-158351 elseif 11371017-566711>U then U={d()}V={O(U)}U=v[T(-190882-(-227597))]elseif U<2514063862%20687479 then d=nil g[Y[-216231-(-216236)]]=V U=3619631786%21754626 else w=nil k=g[Y[456293976%15734275]]d=#k Q=g[Y[2413671451%16091143]]U=v[T(-643537+680375)]k=Q[d]Q=g[Y[-133697-(-133698)]]Q[d]=w V={k}end else if U<561031+9578201 then U=nil V={U}U=v[T(710712757%12467999)]elseif U<11235084-855230 then d=y[-14106-(-14107)]V=g[Y[-310169-(-310170)]]Q=g[Y[-901332+901334]]w=g[Y[217069284%6577857]]B,q=T(-957113+993821),32335369008732-(-410741)j=w(B,q)k=Q[j]U=V[k]V=U(d)U,d,V=v[T(-929248+965965)],nil,{}elseif U<10238477-(-361540)then U,N=2703625298%14465421,T(3153762238%14335116)h=v[N]N=T(1017433189%15652253)v[N]=h else V=T(1022903+-986196)U=v[V]j=x(245319-(-1000564),{w;Y[320821+-320819],Y[-1023264+1023267]})B={U(j)}V=B[-80169-(-80170)]j,k=V,B[53509410%1163248]U=not j U=U and 958006796%19025120 or 4718983-(-848465)end end end end end end end U=#f return O(V)end,function(v,T)local O=Q(T)local y=function(y,Y,f)return U(v,{y;Y;f},T,O)end return y end return(j(2092750-(-12369),{}))(O(V))end)({...},getmetatable,getfenv and getfenv()or _ENV,setmetatable,unpack or table[T(160255-123549)],select,newproxy)end)(...)
+if game.PlaceId ~= 104526416639079 then
+    return
+end
+
+local Players = game:GetService("Players")
+local UIS = game:GetService("UserInputService")
+local TweenService = game:GetService("TweenService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local ContentProvider = game:GetService("ContentProvider")
+
+local player = Players.LocalPlayer
+
+local FONT = Enum.Font.Arcade
+local IMAGE_ID = "rbxassetid://75149787879884"
+local AUDIO_ID = "rbxassetid://94972178245095"
+local SCRIPT_URL = "https://raw.githubusercontent.com/samucarapo/Verity-s-game-script/refs/heads/main/main.lua"
+
+local LANGUAGE_FILE = "VerityLanguage.txt"
+
+_G.VerityToggleState = _G.VerityToggleState or {}
+_G.VerityLastScript = _G.VerityLastScript or nil
+_G.VerityPendingToggleState = _G.VerityPendingToggleState or nil
+
+local function saveLanguage(language)
+    if type(writefile) == "function" then
+        pcall(function()
+            writefile(LANGUAGE_FILE, language)
+        end)
+    end
+end
+
+local function loadLanguage()
+    if type(isfile) ~= "function" or type(readfile) ~= "function" then
+        return nil
+    end
+
+    local success, result = pcall(function()
+        if isfile(LANGUAGE_FILE) then
+            return readfile(LANGUAGE_FILE)
+        end
+    end)
+
+    if success and result then
+        result = tostring(result):gsub("%s+", "")
+
+        if result == "pt" or result == "en" or result == "ru" then
+            return result
+        end
+    end
+
+    return nil
+end
+
+local language = loadLanguage()
+
+local TEXT = {
+    pt = {
+        language = "IDIOMA",
+        portuguese = "PORTUGUÊS",
+        english = "INGLÊS",
+        russian = "RUSSO",
+
+        title = "VERITY",
+        interact = "INTERAGIR",
+        open = "ABRIR",
+        endPoint = "TP PARA O FIM",
+        safeZone = "TP PARA ZONA SEGURA",
+        treadmill = "TP PARA ESTEIRA",
+
+        antiHold = "ANTI-HOLD",
+        autoRebirth = "AUTO RENASCIMENTO",
+        autoUpgradeBase = "AUTO UPGRADE BASE",
+        autoUpgradeTreadmill = "AUTO UPGRADE ESTEIRA",
+        autoEquipBest = "AUTO EQUIPAR MELHOR",
+        checkUpdate = "VERIFICAR ATUALIZAÇÃO",
+        reexecute = "REEXECUTAR",
+
+        closeQuestion = "FECHAR MENU?",
+        yes = "SIM",
+        no = "NÃO",
+
+        loading = "CARREGANDO"
+    },
+
+    en = {
+        language = "LANGUAGE",
+        portuguese = "PORTUGUESE",
+        english = "ENGLISH",
+        russian = "RUSSIAN",
+
+        title = "VERITY",
+        interact = "INTERACT",
+        open = "OPEN",
+        endPoint = "TP TO END",
+        safeZone = "TP TO SAFE ZONE",
+        treadmill = "TP TO TREADMILL",
+
+        antiHold = "ANTI-HOLD",
+        autoRebirth = "AUTO REBIRTH",
+        autoUpgradeBase = "AUTO UPGRADE BASE",
+        autoUpgradeTreadmill = "AUTO UPGRADE TREADMILL",
+        autoEquipBest = "AUTO EQUIP BEST",
+        checkUpdate = "CHECK UPDATE",
+        reexecute = "REEXECUTE",
+
+        closeQuestion = "CLOSE MENU?",
+        yes = "YES",
+        no = "NO",
+
+        loading = "LOADING"
+    },
+
+    ru = {
+        language = "ЯЗЫК",
+        portuguese = "ПОРТУГАЛЬСКИЙ",
+        english = "АНГЛИЙСКИЙ",
+        russian = "РУССКИЙ",
+
+        title = "VERITY",
+        interact = "ВЗАИМОДЕЙСТВИЕ",
+        open = "ОТКРЫТЬ",
+        endPoint = "ТП В КОНЕЦ",
+        safeZone = "ТП В БЕЗОПАСНУЮ ЗОНУ",
+        treadmill = "ТП К БЕГОВОЙ ДОРОЖКЕ",
+
+        antiHold = "АНТИ-HOLD",
+        autoRebirth = "АВТО ВОЗРОЖДЕНИЕ",
+        autoUpgradeBase = "АВТО УЛУЧШЕНИЕ БАЗЫ",
+        autoUpgradeTreadmill = "АВТО УЛУЧШЕНИЕ ДОРОЖКИ",
+        autoEquipBest = "АВТО ЛУЧШЕЕ СНАРЯЖЕНИЕ",
+        checkUpdate = "ПРОВЕРКА ОБНОВЛЕНИЙ",
+        reexecute = "ПЕРЕЗАПУСК",
+
+        closeQuestion = "ЗАКРЫТЬ МЕНЮ?",
+        yes = "ДА",
+        no = "НЕТ",
+
+        loading = "ЗАГРУЗКА"
+    }
+}
+
+local function getText(key)
+    return TEXT[language] and TEXT[language][key] or TEXT.en[key] or key
+end
+
+local function createLanguageSelection()
+    local selectionGui = Instance.new("ScreenGui")
+    selectionGui.Name = "VerityLanguageSelection"
+    selectionGui.ResetOnSpawn = false
+    selectionGui.IgnoreGuiInset = true
+    selectionGui.DisplayOrder = 1000000
+    selectionGui.Parent = game.CoreGui
+
+    local background = Instance.new("Frame")
+    background.Size = UDim2.fromScale(1, 1)
+    background.BackgroundColor3 = Color3.fromRGB(10, 10, 13)
+    background.BorderSizePixel = 0
+    background.Parent = selectionGui
+
+    local container = Instance.new("Frame")
+    container.AnchorPoint = Vector2.new(0.5, 0.5)
+    container.Position = UDim2.fromScale(0.5, 0.5)
+    container.Size = UDim2.fromOffset(250, 240)
+    container.BackgroundColor3 = Color3.fromRGB(18, 18, 22)
+    container.BorderSizePixel = 0
+    container.Parent = background
+
+    local corner = Instance.new("UICorner")
+    corner.CornerRadius = UDim.new(0, 14)
+    corner.Parent = container
+
+    local stroke = Instance.new("UIStroke")
+    stroke.Color = Color3.fromRGB(55, 55, 65)
+    stroke.Thickness = 1
+    stroke.Parent = container
+
+    local image = Instance.new("ImageLabel")
+    image.AnchorPoint = Vector2.new(0.5, 0)
+    image.Position = UDim2.new(0.5, 0, 0, 15)
+    image.Size = UDim2.fromOffset(55, 55)
+    image.BackgroundTransparency = 1
+    image.Image = IMAGE_ID
+    image.Parent = container
+
+    local title = Instance.new("TextLabel")
+    title.Size = UDim2.new(1, -20, 0, 30)
+    title.Position = UDim2.fromOffset(10, 75)
+    title.BackgroundTransparency = 1
+    title.Text = "SELECT LANGUAGE"
+    title.TextColor3 = Color3.fromRGB(235, 235, 240)
+    title.TextSize = 12
+    title.Font = FONT
+    title.Parent = container
+
+    local layout = Instance.new("UIListLayout")
+    layout.Padding = UDim.new(0, 7)
+    layout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+    layout.Parent = container
+
+    local buttons = {}
+
+    local function createLanguageButton(text, code)
+        local button = Instance.new("TextButton")
+        button.Size = UDim2.fromOffset(205, 34)
+        button.Text = text
+        button.TextColor3 = Color3.fromRGB(235, 235, 240)
+        button.TextSize = 10
+        button.Font = FONT
+        button.BackgroundColor3 = Color3.fromRGB(38, 38, 46)
+        button.BorderSizePixel = 0
+        button.AutoButtonColor = false
+        button.Parent = container
+
+        local buttonCorner = Instance.new("UICorner")
+        buttonCorner.CornerRadius = UDim.new(0, 8)
+        buttonCorner.Parent = button
+
+        button.MouseEnter:Connect(function()
+            TweenService:Create(
+                button,
+                TweenInfo.new(0.15),
+                {BackgroundColor3 = Color3.fromRGB(52, 52, 62)}
+            ):Play()
+        end)
+
+        button.MouseLeave:Connect(function()
+            TweenService:Create(
+                button,
+                TweenInfo.new(0.15),
+                {BackgroundColor3 = Color3.fromRGB(38, 38, 46)}
+            ):Play()
+        end)
+
+        button.MouseButton1Click:Connect(function()
+            language = code
+            saveLanguage(code)
+
+            selectionGui:Destroy()
+        end)
+
+        table.insert(buttons, button)
+    end
+
+    createLanguageButton("PORTUGUÊS (BRASIL)", "pt")
+    createLanguageButton("ENGLISH", "en")
+    createLanguageButton("РУССКИЙ", "ru")
+
+    return selectionGui
+end
+
+if not language then
+    createLanguageSelection()
+
+    repeat
+        task.wait()
+    until language
+end
+
+local loadingGui = Instance.new("ScreenGui")
+loadingGui.Name = "VerityLoading"
+loadingGui.ResetOnSpawn = false
+loadingGui.IgnoreGuiInset = true
+loadingGui.DisplayOrder = 999999
+loadingGui.Parent = game.CoreGui
+
+local loadingContainer = Instance.new("Frame")
+loadingContainer.AnchorPoint = Vector2.new(0.5, 0.5)
+loadingContainer.Position = UDim2.fromScale(0.5, 0.5)
+loadingContainer.Size = UDim2.fromOffset(150, 145)
+loadingContainer.BackgroundTransparency = 1
+loadingContainer.Parent = loadingGui
+
+local loadingButton = Instance.new("ImageButton")
+loadingButton.AnchorPoint = Vector2.new(0.5, 0.5)
+loadingButton.Position = UDim2.fromScale(0.5, 0.42)
+loadingButton.Size = UDim2.fromOffset(58, 58)
+loadingButton.BackgroundColor3 = Color3.fromRGB(45, 125, 255)
+loadingButton.BorderSizePixel = 0
+loadingButton.Image = IMAGE_ID
+loadingButton.ScaleType = Enum.ScaleType.Fit
+loadingButton.AutoButtonColor = false
+loadingButton.Parent = loadingContainer
+
+local loadingButtonCorner = Instance.new("UICorner")
+loadingButtonCorner.CornerRadius = UDim.new(1, 0)
+loadingButtonCorner.Parent = loadingButton
+
+local loadingButtonStroke = Instance.new("UIStroke")
+loadingButtonStroke.Color = Color3.fromRGB(80, 160, 255)
+loadingButtonStroke.Thickness = 1
+loadingButtonStroke.Transparency = 0.15
+loadingButtonStroke.Parent = loadingButton
+
+local loadingSound = Instance.new("Sound")
+loadingSound.Name = "VerityLoadingSound"
+loadingSound.SoundId = AUDIO_ID
+loadingSound.Volume = 1
+loadingSound.Looped = false
+loadingSound.Parent = game.CoreGui
+
+pcall(function()
+    ContentProvider:PreloadAsync({
+        loadingButton,
+        loadingSound
+    })
+end)
+
+loadingSound:Play()
+
+local loadingBackground = Instance.new("Frame")
+loadingBackground.AnchorPoint = Vector2.new(0.5, 0)
+loadingBackground.Position = UDim2.fromScale(0.5, 0.68)
+loadingBackground.Size = UDim2.fromOffset(92, 24)
+loadingBackground.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+loadingBackground.BorderSizePixel = 0
+loadingBackground.Parent = loadingContainer
+
+local loadingCorner = Instance.new("UICorner")
+loadingCorner.CornerRadius = UDim.new(0, 5)
+loadingCorner.Parent = loadingBackground
+
+local loadingText = Instance.new("TextLabel")
+loadingText.Size = UDim2.fromScale(1, 1)
+loadingText.BackgroundTransparency = 1
+loadingText.Text = getText("loading")
+loadingText.TextColor3 = Color3.fromRGB(255, 255, 255)
+loadingText.TextSize = 9
+loadingText.Font = FONT
+loadingText.Parent = loadingBackground
+
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+
+task.wait(0.5)
+
+local gui = Instance.new("ScreenGui")
+gui.Name = "VerityUI"
+gui.ResetOnSpawn = false
+gui.IgnoreGuiInset = true
+gui.Parent = game.CoreGui
+
+local buttonLocked = false
+local BUTTON_COOLDOWN = 0.5
+
+local toggleRegistry = {}
+
+local function tween(object, properties, duration)
+    if not object or not object.Parent then
+        return
+    end
+
+    TweenService:Create(
+        object,
+        TweenInfo.new(
+            duration or 0.18,
+            Enum.EasingStyle.Quart,
+            Enum.EasingDirection.Out
+        ),
+        properties
+    ):Play()
+end
+
+local function useButton(callback)
+    if buttonLocked then
+        return
+    end
+
+    buttonLocked = true
+    task.spawn(callback)
+
+    task.delay(BUTTON_COOLDOWN, function()
+        buttonLocked = false
+    end)
+end
+
+local function getRemoteScript()
+    local success, result = pcall(function()
+        return game:HttpGet(SCRIPT_URL)
+    end)
+
+    if success and type(result) == "string" and #result > 0 then
+        return result
+    end
+
+    return nil
+end
+
+local function saveToggle(name, state)
+    _G.VerityToggleState[name] = state
+end
+
+local function getSavedToggle(name)
+    if _G.VerityPendingToggleState then
+        return _G.VerityPendingToggleState[name] == true
+    end
+
+    return _G.VerityToggleState[name] == true
+end
+
+local function saveCurrentToggleStates()
+    local saved = {}
+
+    for name, data in pairs(toggleRegistry) do
+        saved[name] = data.enabled == true
+        _G.VerityToggleState[name] = data.enabled == true
+    end
+
+    _G.VerityPendingToggleState = saved
+end
+
+local function disableAllToggles()
+    saveCurrentToggleStates()
+
+    for name, data in pairs(toggleRegistry) do
+        if data.enabled then
+            data.enabled = false
+            data.button.Text = name .. " [OFF]"
+            data.button:SetAttribute("EnabledToggle", false)
+
+            tween(data.button, {
+                BackgroundColor3 = Color3.fromRGB(38, 38, 46)
+            })
+
+            pcall(data.callback, false)
+        end
+    end
+
+    for name in pairs(_G.VerityToggleState) do
+        _G.VerityToggleState[name] = false
+    end
+end
+
+local function closeCurrentUI()
+    if gui and gui.Parent then
+        gui:Destroy()
+    end
+
+    if loadingGui and loadingGui.Parent then
+        loadingGui:Destroy()
+    end
+end
+
+local function executeSource(source)
+    if not source then
+        return
+    end
+
+    local success, func = pcall(loadstring, source)
+
+    if success and type(func) == "function" then
+        task.spawn(func)
+    end
+end
+
+local function reexecuteScript()
+    local source = getRemoteScript()
+
+    if not source then
+        return
+    end
+
+    saveCurrentToggleStates()
+    disableAllToggles()
+
+    _G.VerityLastScript = source
+
+    closeCurrentUI()
+
+    task.wait(0.1)
+
+    executeSource(source)
+end
+
+local function checkForUpdate()
+    local source = getRemoteScript()
+
+    if not source then
+        return
+    end
+
+    if _G.VerityLastScript == nil then
+        _G.VerityLastScript = source
+        return
+    end
+
+    if source == _G.VerityLastScript then
+        return
+    end
+
+    saveCurrentToggleStates()
+    disableAllToggles()
+
+    _G.VerityLastScript = source
+
+    closeCurrentUI()
+
+    task.wait(0.1)
+
+    executeSource(source)
+end
+
+local frame = Instance.new("Frame")
+frame.Size = UDim2.fromOffset(200, 220)
+frame.Position = UDim2.new(1, -210, 0, 10)
+frame.BackgroundColor3 = Color3.fromRGB(18, 18, 22)
+frame.BorderSizePixel = 0
+frame.Parent = gui
+
+local frameCorner = Instance.new("UICorner")
+frameCorner.CornerRadius = UDim.new(0, 12)
+frameCorner.Parent = frame
+
+local frameStroke = Instance.new("UIStroke")
+frameStroke.Color = Color3.fromRGB(55, 55, 65)
+frameStroke.Thickness = 1
+frameStroke.Transparency = 0.2
+frameStroke.Parent = frame
+
+local title = Instance.new("TextLabel")
+title.Size = UDim2.new(1, -75, 0, 34)
+title.Position = UDim2.fromOffset(10, 0)
+title.Text = getText("title")
+title.TextColor3 = Color3.fromRGB(235, 235, 240)
+title.TextSize = 14
+title.Font = FONT
+title.TextXAlignment = Enum.TextXAlignment.Left
+title.BackgroundTransparency = 1
+title.Parent = frame
+
+local min = Instance.new("TextButton")
+min.Size = UDim2.fromOffset(27, 27)
+min.Position = UDim2.new(1, -61, 0, 4)
+min.Text = "-"
+min.TextSize = 18
+min.Font = FONT
+min.TextColor3 = Color3.fromRGB(235, 235, 240)
+min.BackgroundColor3 = Color3.fromRGB(38, 38, 46)
+min.BorderSizePixel = 0
+min.AutoButtonColor = false
+min.Parent = frame
+
+local minCorner = Instance.new("UICorner")
+minCorner.CornerRadius = UDim.new(0, 7)
+minCorner.Parent = min
+
+local close = Instance.new("TextButton")
+close.Size = UDim2.fromOffset(27, 27)
+close.Position = UDim2.new(1, -31, 0, 4)
+close.Text = "X"
+close.TextSize = 12
+close.Font = FONT
+close.TextColor3 = Color3.fromRGB(235, 235, 240)
+close.BackgroundColor3 = Color3.fromRGB(38, 38, 46)
+close.BorderSizePixel = 0
+close.AutoButtonColor = false
+close.Parent = frame
+
+local closeCorner = Instance.new("UICorner")
+closeCorner.CornerRadius = UDim.new(0, 7)
+closeCorner.Parent = close
+
+local line = Instance.new("Frame")
+line.Size = UDim2.new(1, -20, 0, 1)
+line.Position = UDim2.fromOffset(10, 33)
+line.BackgroundColor3 = Color3.fromRGB(50, 50, 58)
+line.BorderSizePixel = 0
+line.Parent = frame
+
+local scroll = Instance.new("ScrollingFrame")
+scroll.Size = UDim2.new(1, -12, 1, -43)
+scroll.Position = UDim2.fromOffset(6, 39)
+scroll.BackgroundTransparency = 1
+scroll.BorderSizePixel = 0
+scroll.ScrollBarThickness = 3
+scroll.ScrollBarImageColor3 = Color3.fromRGB(80, 140, 255)
+scroll.CanvasSize = UDim2.new(0, 0, 0, 0)
+scroll.AutomaticCanvasSize = Enum.AutomaticSize.Y
+scroll.Parent = frame
+
+local content = Instance.new("Frame")
+content.Size = UDim2.new(1, -7, 0, 0)
+content.AutomaticSize = Enum.AutomaticSize.Y
+content.BackgroundTransparency = 1
+content.Parent = scroll
+
+local layout = Instance.new("UIListLayout")
+layout.Padding = UDim.new(0, 5)
+layout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+layout.Parent = content
+
+local function teleport(position)
+    local character = player.Character
+    local root = character and character:FindFirstChild("HumanoidRootPart")
+
+    if root then
+        root.CFrame = CFrame.new(position)
+    end
+end
+
+local function addButtonAnimation(button)
+    local originalSize = button.Size
+
+    button.MouseEnter:Connect(function()
+        if not buttonLocked then
+            tween(button, {
+                BackgroundColor3 = Color3.fromRGB(52, 52, 62)
+            })
+        end
+    end)
+
+    button.MouseLeave:Connect(function()
+        if button:GetAttribute("EnabledToggle") ~= true then
+            tween(button, {
+                BackgroundColor3 = Color3.fromRGB(38, 38, 46)
+            })
+        end
+    end)
+
+    button.MouseButton1Down:Connect(function()
+        if buttonLocked then
+            return
+        end
+
+        tween(button, {
+            Size = UDim2.new(
+                originalSize.X.Scale,
+                originalSize.X.Offset - 2,
+                originalSize.Y.Scale,
+                originalSize.Y.Offset - 2
+            )
+        }, 0.08)
+    end)
+
+    button.MouseButton1Up:Connect(function()
+        tween(button, {
+            Size = originalSize
+        }, 0.08)
+    end)
+end
+
+local function createButton(text, callback)
+    local button = Instance.new("TextButton")
+    button.Size = UDim2.new(1, 0, 0, 32)
+    button.Text = text
+    button.TextColor3 = Color3.fromRGB(235, 235, 240)
+    button.TextSize = 10
+    button.Font = FONT
+    button.BackgroundColor3 = Color3.fromRGB(38, 38, 46)
+    button.BorderSizePixel = 0
+    button.AutoButtonColor = false
+    button.Parent = content
+
+    local corner = Instance.new("UICorner")
+    corner.CornerRadius = UDim.new(0, 8)
+    corner.Parent = button
+
+    local stroke = Instance.new("UIStroke")
+    stroke.Color = Color3.fromRGB(55, 55, 65)
+    stroke.Transparency = 0.35
+    stroke.Thickness = 1
+    stroke.Parent = button
+
+    addButtonAnimation(button)
+
+    button.MouseButton1Click:Connect(function()
+        useButton(callback)
+    end)
+end
+
+local function createToggle(text, callback)
+    local enabled = getSavedToggle(text)
+
+    local button = Instance.new("TextButton")
+    button.Size = UDim2.new(1, 0, 0, 32)
+    button.Text = text .. (enabled and " [ON]" or " [OFF]")
+    button.TextColor3 = Color3.fromRGB(235, 235, 240)
+    button.TextSize = 9
+    button.Font = FONT
+    button.BackgroundColor3 = enabled
+        and Color3.fromRGB(45, 150, 75)
+        or Color3.fromRGB(38, 38, 46)
+    button.BorderSizePixel = 0
+    button.AutoButtonColor = false
+    button:SetAttribute("EnabledToggle", enabled)
+    button.Parent = content
+
+    local corner = Instance.new("UICorner")
+    corner.CornerRadius = UDim.new(0, 8)
+    corner.Parent = button
+
+    local stroke = Instance.new("UIStroke")
+    stroke.Color = Color3.fromRGB(55, 55, 65)
+    stroke.Transparency = 0.35
+    stroke.Thickness = 1
+    stroke.Parent = button
+
+    toggleRegistry[text] = {
+        button = button,
+        callback = callback,
+        enabled = enabled
+    }
+
+    button.MouseButton1Click:Connect(function()
+        if buttonLocked then
+            return
+        end
+
+        useButton(function()
+            enabled = not enabled
+
+            toggleRegistry[text].enabled = enabled
+            saveToggle(text, enabled)
+
+            button.Text = text .. (enabled and " [ON]" or " [OFF]")
+            button:SetAttribute("EnabledToggle", enabled)
+
+            tween(button, {
+                BackgroundColor3 = enabled
+                    and Color3.fromRGB(45, 150, 75)
+                    or Color3.fromRGB(38, 38, 46)
+            })
+
+            callback(enabled)
+        end)
+    end)
+
+    if enabled then
+        task.defer(function()
+            callback(true)
+        end)
+    end
+end
+
+createButton(getText("interact"), function()
+    local character = player.Character
+    local root = character and character:FindFirstChild("HumanoidRootPart")
+
+    if not root then
+        return
+    end
+
+    local nearest
+    local distance = math.huge
+
+    for _, prompt in ipairs(workspace:GetDescendants()) do
+        if prompt:IsA("ProximityPrompt") and prompt.Enabled then
+            local part = prompt.Parent
+
+            if part:IsA("BasePart") then
+                local currentDistance = (root.Position - part.Position).Magnitude
+
+                if currentDistance < distance then
+                    nearest = prompt
+                    distance = currentDistance
+                end
+            end
+        end
+    end
+
+    if nearest then
+        fireproximityprompt(nearest)
+        task.wait(0.5)
+        teleport(Vector3.new(-117, 13, -141))
+    end
+end)
+
+createButton(getText("open"), function()
+    local character = player.Character
+    local root = character and character:FindFirstChild("HumanoidRootPart")
+
+    if not root then
+        return
+    end
+
+    local savedPosition = root.CFrame
+
+    teleport(Vector3.new(-123, 13, -91))
+    task.wait(0.3)
+
+    local nearest
+    local distance = math.huge
+
+    for _, prompt in ipairs(workspace:GetDescendants()) do
+        if prompt:IsA("ProximityPrompt") and prompt.Enabled then
+            local part = prompt.Parent
+
+            if part:IsA("BasePart") then
+                local currentDistance = (root.Position - part.Position).Magnitude
+
+                if currentDistance < distance then
+                    nearest = prompt
+                    distance = currentDistance
+                end
+            end
+        end
+    end
+
+    if nearest then
+        fireproximityprompt(nearest)
+        task.wait(0.3)
+    end
+
+    root.CFrame = savedPosition
+end)
+
+createButton(getText("endPoint"), function()
+    teleport(Vector3.new(-120, 13, 255))
+end)
+
+createButton(getText("safeZone"), function()
+    teleport(Vector3.new(-117, 13, -141))
+end)
+
+createButton(getText("treadmill"), function()
+    local bases = workspace:FindFirstChild("Bases")
+
+    if not bases then
+        return
+    end
+
+    local function isOwnedByPlayer(base)
+        local owner = base:FindFirstChild("Owner", true)
+
+        if owner then
+            if owner:IsA("ObjectValue") then
+                if owner.Value == player then
+                    return true
+                end
+            elseif owner:IsA("StringValue") then
+                if owner.Value == player.Name then
+                    return true
+                end
+            elseif owner:IsA("IntValue") or owner:IsA("NumberValue") then
+                if owner.Value == player.UserId then
+                    return true
+                end
+            end
+        end
+
+        if base:GetAttribute("Owner") == player
+            or base:GetAttribute("Owner") == player.Name
+            or base:GetAttribute("Owner") == player.UserId then
+            return true
+        end
+
+        if base:GetAttribute("OwnerUserId") == player.UserId then
+            return true
+        end
+
+        return false
+    end
+
+    local base
+
+    for _, candidate in ipairs(bases:GetChildren()) do
+        if isOwnedByPlayer(candidate) then
+            base = candidate
+            break
+        end
+    end
+
+    if not base then
+        return
+    end
+
+    local treadmillSpawn = base:FindFirstChild("TreadmillSpawn", true)
+
+    if not treadmillSpawn then
+        return
+    end
+
+    local position
+
+    if treadmillSpawn:IsA("BasePart") then
+        position = treadmillSpawn.Position
+    elseif treadmillSpawn:IsA("Attachment") then
+        position = treadmillSpawn.WorldPosition
+    elseif treadmillSpawn:IsA("Model") then
+        position = treadmillSpawn:GetPivot().Position
+    end
+
+    if not position then
+        return
+    end
+
+    teleport(position)
+
+    task.wait(0.3)
+
+    ReplicatedStorage.RemoteEvents.TreadmillEvent:FireServer(true)
+end)
+
+local antiHold = false
+local autoRebirth = false
+local autoUpgradeBase = false
+local autoUpgradeTreadmill = false
+local autoEquipBest = false
+local checkUpdate = false
+
+createToggle(getText("antiHold"), function(enabled)
+    antiHold = enabled
+end)
+
+createToggle(getText("autoRebirth"), function(enabled)
+    autoRebirth = enabled
+end)
+
+createToggle(getText("autoUpgradeBase"), function(enabled)
+    autoUpgradeBase = enabled
+end)
+
+createToggle(getText("autoUpgradeTreadmill"), function(enabled)
+    autoUpgradeTreadmill = enabled
+end)
+
+createToggle(getText("autoEquipBest"), function(enabled)
+    autoEquipBest = enabled
+end)
+
+createToggle(getText("checkUpdate"), function(enabled)
+    checkUpdate = enabled
+end)
+
+createButton(getText("reexecute"), function()
+    reexecuteScript()
+end)
+
+local function makeDraggable(object)
+    local dragging = false
+    local startPosition
+    local objectPosition
+
+    object.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1
+            or input.UserInputType == Enum.UserInputType.Touch then
+
+            dragging = true
+            startPosition = input.Position
+            objectPosition = object.Position
+        end
+    end)
+
+    UIS.InputChanged:Connect(function(input)
+        if dragging and (
+            input.UserInputType == Enum.UserInputType.MouseMovement
+            or input.UserInputType == Enum.UserInputType.Touch
+        ) then
+            local delta = input.Position - startPosition
+
+            object.Position = UDim2.new(
+                objectPosition.X.Scale,
+                objectPosition.X.Offset + delta.X,
+                objectPosition.Y.Scale,
+                objectPosition.Y.Offset + delta.Y
+            )
+        end
+    end)
+
+    UIS.InputEnded:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1
+            or input.UserInputType == Enum.UserInputType.Touch then
+
+            dragging = false
+        end
+    end)
+end
+
+makeDraggable(frame)
+
+local ball = Instance.new("ImageButton")
+ball.Size = UDim2.fromOffset(58, 58)
+ball.Position = UDim2.new(1, -68, 0.5, -29)
+ball.Image = IMAGE_ID
+ball.ScaleType = Enum.ScaleType.Fit
+ball.BackgroundColor3 = Color3.fromRGB(45, 125, 255)
+ball.BorderSizePixel = 0
+ball.AutoButtonColor = false
+ball.Visible = false
+ball.Parent = gui
+
+local ballCorner = Instance.new("UICorner")
+ballCorner.CornerRadius = UDim.new(1, 0)
+ballCorner.Parent = ball
+
+local ballStroke = Instance.new("UIStroke")
+ballStroke.Color = Color3.fromRGB(80, 160, 255)
+ballStroke.Thickness = 1
+ballStroke.Transparency = 0.15
+ballStroke.Parent = ball
+
+makeDraggable(ball)
+
+min.MouseButton1Click:Connect(function()
+    useButton(function()
+        frame.Visible = false
+        ball.Visible = true
+    end)
+end)
+
+ball.MouseButton1Click:Connect(function()
+    useButton(function()
+        ball.Visible = false
+        frame.Visible = true
+    end)
+end)
+
+close.MouseButton1Click:Connect(function()
+    if buttonLocked then
+        return
+    end
+
+    useButton(function()
+        local confirmation = Instance.new("Frame")
+        confirmation.Size = UDim2.fromOffset(220, 110)
+        confirmation.Position = UDim2.new(0.5, -110, 0.5, -55)
+        confirmation.BackgroundColor3 = Color3.fromRGB(28, 28, 34)
+        confirmation.BorderSizePixel = 0
+        confirmation.Parent = gui
+
+        local corner = Instance.new("UICorner")
+        corner.CornerRadius = UDim.new(0, 12)
+        corner.Parent = confirmation
+
+        local text = Instance.new("TextLabel")
+        text.Size = UDim2.new(1, -20, 0, 48)
+        text.Position = UDim2.fromOffset(10, 5)
+        text.Text = getText("closeQuestion")
+        text.TextColor3 = Color3.fromRGB(235, 235, 240)
+        text.TextSize = 12
+        text.Font = FONT
+        text.BackgroundTransparency = 1
+        text.Parent = confirmation
+
+        local yes = Instance.new("TextButton")
+        yes.Size = UDim2.fromOffset(90, 34)
+        yes.Position = UDim2.fromOffset(15, 62)
+        yes.Text = getText("yes")
+        yes.TextSize = 10
+        yes.Font = FONT
+        yes.TextColor3 = Color3.fromRGB(235, 235, 240)
+        yes.BackgroundColor3 = Color3.fromRGB(160, 55, 55)
+        yes.BorderSizePixel = 0
+        yes.Parent = confirmation
+
+        local yesCorner = Instance.new("UICorner")
+        yesCorner.CornerRadius = UDim.new(0, 8)
+        yesCorner.Parent = yes
+
+        local no = Instance.new("TextButton")
+        no.Size = UDim2.fromOffset(90, 34)
+        no.Position = UDim2.fromOffset(115, 62)
+        no.Text = getText("no")
+        no.TextSize = 10
+        no.Font = FONT
+        no.TextColor3 = Color3.fromRGB(235, 235, 240)
+        no.BackgroundColor3 = Color3.fromRGB(38, 38, 46)
+        no.BorderSizePixel = 0
+        no.Parent = confirmation
+
+        local noCorner = Instance.new("UICorner")
+        noCorner.CornerRadius = UDim.new(0, 8)
+        noCorner.Parent = no
+
+        yes.MouseButton1Click:Connect(function()
+            gui:Destroy()
+            loadingGui:Destroy()
+        end)
+
+        no.MouseButton1Click:Connect(function()
+            confirmation:Destroy()
+        end)
+    end)
+end)
+
+task.spawn(function()
+    while gui.Parent do
+        if antiHold then
+            local character = player.Character
+            local humanoid = character and character:FindFirstChildOfClass("Humanoid")
+
+            if humanoid then
+                humanoid:UnequipTools()
+            end
+        end
+
+        if autoRebirth then
+            ReplicatedStorage.RemoteEvents.RebirthEvent:FireServer()
+        end
+
+        if autoUpgradeBase then
+            ReplicatedStorage.RemoteEvents.BaseUpgradeEvent:FireServer()
+        end
+
+        if autoUpgradeTreadmill then
+            ReplicatedStorage.RemoteEvents.BuyTreadmillEvent:FireServer()
+        end
+
+        if autoEquipBest then
+            ReplicatedStorage.RemoteEvents.EquipBestEvent:FireServer()
+        end
+
+        task.wait(1)
+    end
+end)
+
+task.spawn(function()
+    while gui.Parent do
+        if checkUpdate then
+            checkForUpdate()
+        end
+
+        task.wait(1)
+    end
+end)
+
+if _G.VerityLastScript == nil then
+    local currentSource = getRemoteScript()
+
+    if currentSource then
+        _G.VerityLastScript = currentSource
+    end
+end
+
+_G.VerityPendingToggleState = nil
+
+task.wait(0.2)
+
+tween(loadingButton, {
+    BackgroundTransparency = 1,
+    ImageTransparency = 1
+}, 0.3)
+
+tween(loadingButtonStroke, {
+    Transparency = 1
+}, 0.3)
+
+tween(loadingBackground, {
+    BackgroundTransparency = 1
+}, 0.3)
+
+tween(loadingText, {
+    TextTransparency = 1
+}, 0.3)
+
+task.wait(0.35)
+
+loadingGui:Destroy()
